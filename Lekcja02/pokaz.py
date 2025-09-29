@@ -65,3 +65,26 @@ bool()
 
 konwersja = float(calkowita)
 print(konwersja)
+
+# float -> int
+konwersja = int(-14.6) # Ucina część po przecinku
+print(konwersja)
+
+# str -> int
+konwersja = int("21") # Konwertowała na liczbę całkowitą, O ILE PODANY TEKST JEST POPRAWNĄ LICZBĄ CAŁKOWITĄ!
+print(konwersja)
+
+# bool -> int
+konwersja = int(True) # Zawsze możliwa, dla True daje 1, dla False daje 0
+print(konwersja)
+
+# int -> float
+konwersja = float(15)
+print(konwersja)
+
+# str -> float
+konwersja = float("12.6")
+print(konwersja)
+
+# bool -> float
+#konwersja = 
