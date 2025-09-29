@@ -79,12 +79,30 @@ konwersja = int(True) # Zawsze możliwa, dla True daje 1, dla False daje 0
 print(konwersja)
 
 # int -> float
-konwersja = float(15)
+konwersja = float(15) # Zawsze możliwa
 print(konwersja)
 
 # str -> float
-konwersja = float("12.6")
+konwersja = float("12.6") # Możliwa pod warunkiem wpisania poprawnej wartości liczbowej
 print(konwersja)
 
 # bool -> float
-#konwersja = 
+konwersja = float(False) # Zawsze możliwa
+print(konwersja)
+
+# cokolwiek -> str
+print(str(1))
+print(str(1.0))
+print(str(True))
+
+# int -> bool
+konwersja = bool(0) # jeśli podamy 0, False, jeśli cokolwiek innego, to True
+print(konwersja)
+
+# float -> bool
+konwersja = bool(1.4) # jeśli podamy 0.0, False, jeśli cokolwiek innego, to True
+print(konwersja)
+
+# str -> bool
+konwersja = bool("")
+print(konwersja)
