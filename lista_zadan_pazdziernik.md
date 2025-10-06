@@ -14,7 +14,7 @@ rok_urodzenia = 1996
 
 Powinniśmy otrzymać napis:
 ```py
-"Jan Kowalski ma 25 lat."
+"Jan Kowalski ma 29 lat."
 ```
 
 (b) Proszę wykonać to zadanie tak, żeby nie tworzyć specjalnie nowej zmiennej na wiek przed wstawieniem danych do funkcji print(). `0.5 pkt`
