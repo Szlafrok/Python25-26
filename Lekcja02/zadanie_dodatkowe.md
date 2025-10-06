@@ -9,3 +9,8 @@ wynik = int(z)
 ```
 1. Proszę określić, dlaczego ten program zwróci błąd.
 2. Proszę zaproponować sposób, w jaki możemy przekonwertować tę liczbę na liczbę całkowitą (wynikiem powinno być 12).
+
+```
+Damian: +1.75p
+Staszek: +1.75p
+```
