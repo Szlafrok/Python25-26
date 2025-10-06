@@ -28,4 +28,10 @@ print(2.5 + 2.5)
 print(a ** b) # a - podstawa, b - wykładnik. 248832
 
 # Dzielenie z resztą (modulo)
-print(a % b) # 12 % 5 = 
+print(a % b) # 12 % 5 = 2
+
+# ZADANIE SAMODZIELNE
+# Wzór na pole powierzchni prostopadłościanu: 2ab + 2ac + 2bc
+# Proszę napisać skrypt, który wczyta od gracza wartości liczbowe
+# a, b, c i wyznaczy (wypisze do konsoli) pole powierzchni całkowitej
+# prostopadłościanu o bokach a, b, c.
