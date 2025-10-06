@@ -37,9 +37,28 @@ print(a % b) # 12 % 5 = 2
 # a, b, c i wyznaczy (wypisze do konsoli) pole powierzchni całkowitej
 # prostopadłościanu o bokach a, b, c.
 
-a = float(input())
-b = float(input())
-c = float(input())
+# a = float(input())
+# b = float(input())
+# c = float(input())
 
-pole = 2 * a * b + 2 * a * c + 2 * b * c
-print(pole)
+# pole = 2 * a * b + 2 * a * c + 2 * b * c
+# print(pole)
+
+# OPERATORY PRZYPISANIA
+print("--------")
+a = 3
+b = 4
+a = a + 2 # zwiększ a o 2
+print(a)
+
+a += 2 # zwiększ a o 2
+print(a)
+
+a -= 4 # odejmij 4
+print(a) # 3
+
+a *= b 
+print(a)
+
+a /= b
+print(a)
