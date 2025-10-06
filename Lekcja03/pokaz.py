@@ -32,6 +32,14 @@ print(a % b) # 12 % 5 = 2
 
 # ZADANIE SAMODZIELNE
 # Wzór na pole powierzchni prostopadłościanu: 2ab + 2ac + 2bc
+# 2ab = 2 * a * b
 # Proszę napisać skrypt, który wczyta od gracza wartości liczbowe
 # a, b, c i wyznaczy (wypisze do konsoli) pole powierzchni całkowitej
 # prostopadłościanu o bokach a, b, c.
+
+a = float(input())
+b = float(input())
+c = float(input())
+
+pole = 2 * a * b + 2 * a * c + 2 * b * c
+print(pole)
