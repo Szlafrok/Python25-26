@@ -52,7 +52,7 @@ a = a + 2 # zwiększ a o 2
 print(a)
 
 a += 2 # zwiększ a o 2
-print(a)
+print(a) # a = a + 2
 
 a -= 4 # odejmij 4
 print(a) # 3
@@ -82,7 +82,7 @@ print(a)
 tekst_a = "Witaj"
 tekst_b = "Piotrze"
 
-print(tekst_a + tekst_b) # Połączenie stringów
+print(tekst_a + tekst_b) # Połączenie stringów (KONKATENACJA)
 print(tekst_a * 3)  # mnożenie stringa przez n -> powtórzenie stringa n razy
 
 # F-STRING
