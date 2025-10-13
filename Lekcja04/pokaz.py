@@ -71,3 +71,5 @@ werdykt = wzrost_cm >= 150
 
 # Wyświetl zawartość zmiennej werdykt
 print(werdykt)
+
+# OPERATORY LOGICZNE
