@@ -8,3 +8,7 @@ Pobierz od użytkownika długości dwóch przyprostokątnych trójkąta i wyznac
 ```
 a**2 + b**2 == c**2
 ```
+
+```
+Zaba: +4p
+```

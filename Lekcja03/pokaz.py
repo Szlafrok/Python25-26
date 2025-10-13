@@ -17,7 +17,7 @@ print(c)
 
 print(-a) # -12
 
-print(a // b) # 2 -> # ZAWSZE DAJE INT
+print(a // b) # 2 ->
 
 # Operacje int-int, int-float, float-float
 print(2 + 2)
@@ -61,4 +61,30 @@ a *= b
 print(a)
 
 a /= b
+print(f"Wynik przed samodzielnym: {a}") # a = 3.0, b = 4
+
+# ZADANIE SAMODZIELNE
+
+# Proszę wykonać działania:
+# - podnieś a do potęgi 2
+# - podziel a z resztą przez b
+# - przemnóż a przez trzykrotność b (przemnóż przez b * 3)
+# - podziel a całkowicie przez 3
+
+a **= 2 # a = a**2
+a %= b # a = a%b
+a *= b * 3 # a = a * b * 3
+a //= 3 # a = a // 3
 print(a)
+
+# a = 3
+
+tekst_a = "Witaj"
+tekst_b = "Piotrze"
+
+print(tekst_a + tekst_b) # Połączenie stringów
+print(tekst_a * 3)  # mnożenie stringa przez n -> powtórzenie stringa n razy
+
+# F-STRING
+tekst_wypisania = f"Wynik wykonywania naszych działań to {a}"
+print(tekst_wypisania)
