@@ -67,9 +67,16 @@ print("--- Rollercoaster --- ")
 wzrost_cm = int(input("Podaj swój wzrost w cm: "))
 
 # Sprawdź wynik działania logicznego i zapisz go do zmiennej "werdykt"
-werdykt = wzrost_cm >= 150
+werdykt = wzrost_cm >= 150 and wzrost_cm <= 210
 
 # Wyświetl zawartość zmiennej werdykt
 print(werdykt)
 
 # OPERATORY LOGICZNE
+wyr_1 = 5 > 2 or 1 / 0 > 0
+print(wyr_1)
+
+wyr_2 = 5 == 5 and 1 / 0 > 0
+print(wyr_2)
+
+# =   ==

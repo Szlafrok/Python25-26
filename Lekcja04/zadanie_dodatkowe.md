@@ -11,3 +11,9 @@ Wyszukaj w sieci i omów działanie funkcji `all()` oraz funkcji `any()` - odpow
 
 ### Zadanie dodatkowe D4-2 `+2 pkt`
 Proszę przedstawić operatory: >=, !=, >, < za pomocą innych operatorów z wykorzystaniem **not, and, or**
+
+
+```
+Damian (Damujek) +1p
+Żaba +1 +1.75p
+```
