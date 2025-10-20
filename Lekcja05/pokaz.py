@@ -22,10 +22,25 @@ if poziom_baterii <= 15:
 print("Wykonam się niezależenie")
 print("-------")
 
-dzielna = int(input("Wprowadź dzielną: "))
-dzielnik = int(input("Wprowadź dzielnik: "))
+# dzielna = int(input("Wprowadź dzielną: "))
+# dzielnik = int(input("Wprowadź dzielnik: "))
 
-if dzielnik == 0:
-    print("Nie można wykonać dzielenia")
-if dzielnik != 0:
-    print(dzielna / dzielnik)
+# if dzielnik == 0:
+#     print("Nie można wykonać dzielenia")
+# else:
+#     print(dzielna / dzielnik)
+
+
+# if 10 <= wiek <= 99:
+#     print("Ten zestaw klocków jest dla ciebie!")
+# else:
+#     print("Ten zestaw klocków nie jest dla ciebie!")
+
+wiek = int(input("Podaj wiek: "))
+
+if 10 <= wiek <= 99:
+    print("Ten zestaw klocków jest dla ciebie!")
+elif wiek < 10:
+    print("Jesteś za młody!")
+else:
+    print("Jestes za stary!")
