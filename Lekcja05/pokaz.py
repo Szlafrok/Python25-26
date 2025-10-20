@@ -44,3 +44,13 @@ elif wiek < 10:
     print("Jesteś za młody!")
 else:
     print("Jestes za stary!")
+
+
+liczba = int(input())
+
+if liczba == 0:
+    print("Liczba jest zerowa")
+elif liczba > 0:
+    print("Liczba jest dodatnia")
+elif liczba < 0: # else
+    print("Liczba jest ujemna")

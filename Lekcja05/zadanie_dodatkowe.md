@@ -34,3 +34,8 @@ Wskazówka: zastanowienie się co zrobi poniższy program może pomóc 😉
 tekst = "TEksT"
 print(tekst.lower())
 ```
+
+
+Żaba: 4
+Damujek: 2
+Staszek: 4

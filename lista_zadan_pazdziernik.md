@@ -46,3 +46,29 @@ godzina = int(input())
 czy_mozna_wyjsc = #Uzupełnij wyrażenie logiczne
 print(czy_mozna_wyjsc)
 ```
+
+
+### Zadanie L5-1 `5 pkt` `+1 dod` `[❗❗❗ OBOWIĄZKOWE ❗❗❗]`
+
+Proszę rozwiązać podany quiz: [LINK](https://wayground.com/join?gc=44203914)
+
+❗ To zadanie wyjątkowo jest obowiązkowe i **konieczne do wykonania**! Brak wykonania zadania poskutkuje uniemożliwieniem zdobywania odznak z aktywności w pierwszej połowie listopada.
+
+Quiz składa się z 25 pytań krótkiej odpowiedzi, jednokrotnego wyboru lub wielokrotnego wyboru. Każde pytanie jest opatrzone **wyjaśnieniem**. Do quizu można podchodzić __**wielokrotnie**__, a swoje odpowiedzi na pytania można także **poprawiać**, jeśli odpowiedzieliśmy błędnie.
+Korzystając z tego quizu oraz zawartych w nim wyjaśnień, proszę przećwiczyć wiedzę o podstawach Pythona, które dotąd poznawaliśmy (lekcje 1-5).
+
+Pytania 23-25 są "z gwiazdką", natomiast warto je zrobić i przeanalizować, wprowadzają ciekawe pojęcie wyrażeń przeciwnych oraz równoważnych. Umiejętność operowania na wyrażeniach logicznych przydaje się przy konstruowaniu złożonych instrukcji warunkowych 😄
+
+Jeśli udzielsz 18 z 25 poprawnych odpowiedzi w którymkolwiek podejściu, zadanie jest zaliczone!
+
+| **Poprawne odpowiedzi**  |    **Rezultat**        |
+|:------------------------:|:----------------------:|
+| 0 - 17p                  | Brak zaliczenia ❌    |
+| 18p - 19p                | Zaliczenie (2p / 5p)   |
+| 20p - 21p                | Zaliczenie (4p / 5p)   |
+| 22p - 24p                | Zaliczenie (5p / 5p)   |
+| 25p                      | Zaliczenie (6p 😉)    |
+
+🏆 Uwaga: Trzy osoby z najwyższym wynikiem (a spośród nich te o najlepszym czasie) otrzymają dodatkowy punkt do zadań domowych 🎉
+
+🏅 Chętni uczniowie mogą zgłosić się na koniec zajęć 27 października, aby opowiedzieć o swoim podejściu do pytań 23-25. Jest to szansa na zarobienie dodatkowej odznaki 😉
