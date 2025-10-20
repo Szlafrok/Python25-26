@@ -52,7 +52,7 @@ print(czy_mozna_wyjsc)
 
 Proszę rozwiązać podany quiz: [LINK](https://wayground.com/join?gc=44203914)
 
-❗ To zadanie wyjątkowo jest obowiązkowe i **konieczne do wykonania**! Brak wykonania zadania poskutkuje uniemożliwieniem zdobywania odznak z aktywności w pierwszej połowie listopada.
+❗ To zadanie wyjątkowo jest obowiązkowe i **konieczne do wykonania**! Brak wykonania zadania poskutkuje uniemożliwieniem zdobywania odznak z aktywności przez 3 pierwsze lekcje w listopadzie.
 
 Quiz składa się z 25 pytań krótkiej odpowiedzi, jednokrotnego wyboru lub wielokrotnego wyboru. Każde pytanie jest opatrzone **wyjaśnieniem**. Do quizu można podchodzić __**wielokrotnie**__, a swoje odpowiedzi na pytania można także **poprawiać**, jeśli odpowiedzieliśmy błędnie.
 Korzystając z tego quizu oraz zawartych w nim wyjaśnień, proszę przećwiczyć wiedzę o podstawach Pythona, które dotąd poznawaliśmy (lekcje 1-5).
