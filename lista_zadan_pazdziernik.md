@@ -1,5 +1,6 @@
 # Termin wysłania zadań: 31.10
-
+### Zasady i sposób wysyłania zadań: [LINK](https://github.com/Szlafrok/Python25-26/blob/main/Zasady%20i%20informacje/zasady_zadan.md)
+---
 
 ### Zadanie L3-1 `3 pkt`
 
