@@ -1,4 +1,4 @@
-### Zadanie dodatkowe: Czuć nosem zimę (+4p)
+### Zadanie dodatkowe: Czuć nosem zimę - D5-1 (+4p)
 Instrukcja `match ... case` pozwala na sprawdzanie warunków przez dopasowywanie wzorców. Umożliwia ona tworzenie instrukcji warunkowych elastyczniejsze, niż z pomocą konstrukcji `if-elif-else`.
 
 Jak to robić?
@@ -19,7 +19,7 @@ match wartosc:
 Przy tworzeniu instrukcji `match ... case` warto pamiętać, że:
 1. Jeśli jakiś przypadek wartości nie zostanie rozpatrzony, nic się nie wydarzy (np. może brakować `case _` i nic się nie stanie, jeśli podamy błędną wartość)
 2. Jeśli któryś przypadek `case` się wypełni, wszystkie pozostałe nie będą dalej sprawdzane, nawet jeśli również spełniłyby podane warunki.
-
+---
 Poniższa tabela przechowuje informacje o datach ferii zimowych w poszczególnych województwach.
 |        **Termin**        | **Województwa**                                                                 |
 |:------------------------:|---------------------------------------------------------------------------------|
