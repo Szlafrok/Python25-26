@@ -14,6 +14,6 @@ Proszę przedstawić operatory: >=, !=, >, < za pomocą innych operatorów z wyk
 
 
 ```
-Damian (Damujek) +1p
-Żaba +1 +1.75p
+Damian (Damujek) +2p
+Żaba +2 +1.75p
 ```
