@@ -60,4 +60,9 @@ haslo = input("Podaj hasło: ")
 if login == POPRAWNY_LOGIN and haslo == POPRAWNE_HASLO:
     print("Zalogowano poprawnie!")
 else:
-    print("Błędne dane logowania!")
+    if login != POPRAWNY_LOGIN:
+        print("Taki login nie istnieje!")
+    else:
+        print("Hasło jest błędne!")
+
+# ---- ŚREDNIA OCEN ----
