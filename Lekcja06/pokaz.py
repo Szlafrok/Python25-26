@@ -21,9 +21,14 @@ operacja = input("Podaj operator: ")
 
 if operacja == "+":
     print(f"{a} + {b} = {a + b}")
-if operacja == "-":
+elif operacja == "-":
     print(f"{a} - {b} = {a - b}")
-if operacja == "*":
+elif operacja == "*":
     print(f"{a} * {b} = {a * b}")
-if operacja == "/":
-    
+elif operacja == "/":
+    if b == 0:
+        print("Dzielenie przez 0 jest niemożliwe!")
+    else:
+        print(f"{a} / {b} = {a / b}")
+else:
+    print("Operator nie został rozpoznany!")
