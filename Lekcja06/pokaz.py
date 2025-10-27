@@ -48,8 +48,16 @@ else:
 
 
 # ----- ZADANIE SAMODZIELNE -----
-POPRAWNY_LOGIN = "trenerpiotr@gigant.com"
+POPRAWNY_LOGIN = "trenerpiotrek@gigant.com"
 POPRAWNE_HASLO = "haslomaslo"
+
+login = input("Podaj login: ")
+haslo = input("Podaj hasło: ")
 
 # Prosze wczytać od użytkownika login i hasło, a następnie
 # zweryfikować czy podane dane są poprawne.
+
+if login == POPRAWNY_LOGIN and haslo == POPRAWNE_HASLO:
+    print("Zalogowano poprawnie!")
+else:
+    print("Błędne dane logowania!")
