@@ -75,3 +75,7 @@ Jeśli udzielsz 18 z 25 poprawnych odpowiedzi w którymkolwiek podejściu, zadan
 🏅 Chętni uczniowie mogą zgłosić się na koniec zajęć 27 października, aby opowiedzieć o swoim podejściu do pytań 23-25. Jest to szansa na zarobienie dodatkowej odznaki 😉
 
 ⚠ Uwaga - w jednym z zadań poprawne odpowiedzi były oznaczone błędnie. Osoby, które miały to zadanie poprawnie, otrzymały bonusowy punkt! Pod nowym linkiem znajduje się poprawiona wersja quizu.
+
+
+---
+### To kompletna lista zadań na październik! Dalsze zadania będą zadawane na kolejne miesiące.
