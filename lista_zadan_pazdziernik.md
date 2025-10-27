@@ -51,7 +51,7 @@ print(czy_mozna_wyjsc)
 
 ### Zadanie L5-1 `5 pkt` `+1 dod` `[❗❗❗ OBOWIĄZKOWE ❗❗❗]`
 
-Proszę rozwiązać podany quiz: [LINK](https://wayground.com/join?gc=44203914)
+Proszę rozwiązać podany quiz: [LINK](https://wayground.com/join?gc=66303018)
 
 ❗ To zadanie wyjątkowo jest obowiązkowe i **konieczne do wykonania**! Brak wykonania zadania poskutkuje uniemożliwieniem zdobywania odznak z aktywności przez 3 pierwsze lekcje w listopadzie.
 
@@ -73,3 +73,5 @@ Jeśli udzielsz 18 z 25 poprawnych odpowiedzi w którymkolwiek podejściu, zadan
 🏆 Uwaga: Trzy osoby z najwyższym wynikiem (a spośród nich te o najlepszym czasie) otrzymają dodatkowy punkt do zadań domowych 🎉
 
 🏅 Chętni uczniowie mogą zgłosić się na koniec zajęć 27 października, aby opowiedzieć o swoim podejściu do pytań 23-25. Jest to szansa na zarobienie dodatkowej odznaki 😉
+
+⚠ Uwaga - w jednym z zadań poprawne odpowiedzi były oznaczone błędnie. Osoby, które miały to zadanie poprawnie, otrzymały bonusowy punkt! Pod nowym linkiem znajduje się poprawiona wersja quizu.
