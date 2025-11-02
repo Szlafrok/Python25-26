@@ -35,7 +35,7 @@ powinniśmy otrzymać napis:
 "48 dzielone przez 10 jest równe 4 i daje 8 reszty."
 ```
 
-### Zadanie L4-1 `2 pkt`
+### Zadanie L4-1 `3 pkt`
 
 Określ czy obecna pora dnia i pogoda nadaje się na wyjście z domu. 
 Zmienna `pogoda` przyjmuje napisy odpowiadające aktualnej pogodzie: “słonecznie”, “pochmurnie”, “deszczowo”, “burzowo”.
