@@ -49,7 +49,7 @@ else:
 
 # ----- ZADANIE SAMODZIELNE -----
 POPRAWNY_LOGIN = "trenerpiotrek@gigant.com"
-POPRAWNE_HASLO = "haslomaslo"
+POPRAWNE_HASLO = "security_is_my_passion"
 
 login = input("Podaj login: ")
 haslo = input("Podaj hasło: ")
