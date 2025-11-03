@@ -19,13 +19,13 @@ while d <= 4:
 
 import time
 
-# sekundy = int(input("Podaj liczbę sekund: "))
+sekundy = int(input("Podaj liczbę sekund: "))
 
-# while sekundy > 0:
-#     print(f"{sekundy}...")
-#     time.sleep(1)
-#     sekundy -= 1
-# print("KABOOM!")
+while sekundy > 0:
+    print(f"{sekundy}...")
+    time.sleep(1)
+    sekundy -= 1
+print("KABOOM!")
 
 
 MINIMUM = 1
@@ -35,7 +35,9 @@ from random import randint
 
 popr_odp = randint(MINIMUM, MAXIMUM)
 
+print(f"(Testowe) poprawna liczba: {popr_odp}")
 odp = int(input("Wprowadź swoją odpowiedź: "))
+licznik = 1
 
 while not odp == popr_odp:
     if odp > popr_odp:
@@ -43,8 +45,12 @@ while not odp == popr_odp:
     else:
         print("Liczba za niska")
     odp = int(input("Wprowadź swoją odpowiedź: "))
+    licznik += 1
+
+print(f"Liczba prób: {licznik}")
 
 # ZADANIE SAMODZIELNE
 
 # Proszę dodać licznik odpowiedzi, który będzie liczył ile razy
 # gracz zgadywał i na końcu wypiszę informację o liczbie zgadnięć.
+
