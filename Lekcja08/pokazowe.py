@@ -19,4 +19,13 @@ print()
 for i in range(8):
     print(i, end = " ")
 
+print()
+print("------------------")
+tekst = "Kebabopoduszka"
+print(tekst[0]) # -> K
+print(tekst[2]) # -> b
+print(tekst[5]) # -> o
+#print(tekst[14]) # -> BŁĄD
 
+for i in range(len(tekst)): # 
+    print(tekst[i], end = " ")
