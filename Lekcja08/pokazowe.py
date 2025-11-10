@@ -34,3 +34,18 @@ print()
 print("Odwrócony tekst:")
 for i in range(len(tekst) - 1, -1, -1):
     print(tekst[i], end = " ")
+
+# Proszę napisać wywołania range, które dadzą nam takie przedziały:
+
+# 3 4 5 6 7
+range(3, 8)
+
+# 0 1 2 3 4 5 6 7 8
+
+# 5 10 15 20
+
+# 0 2 4 6 8 10
+
+# -3 -2
+
+# 9 5 1 -3
