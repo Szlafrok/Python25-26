@@ -21,11 +21,16 @@ for i in range(8):
 
 print()
 print("------------------")
-tekst = "Kebabopoduszka"
+tekst = "Kobyła ma mały bok"
 print(tekst[0]) # -> K
 print(tekst[2]) # -> b
 print(tekst[5]) # -> o
 #print(tekst[14]) # -> BŁĄD
 
 for i in range(len(tekst)): # 
+    print(tekst[i], end = " ")
+
+print()
+print("Odwrócony tekst:")
+for i in range(len(tekst) - 1, -1, -1):
     print(tekst[i], end = " ")
