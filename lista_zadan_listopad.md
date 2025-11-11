@@ -28,7 +28,9 @@ Proszę napisać grę zadającą użytkownikowi losowe pytania matematyczne. Gra
 - Odejmowania
 - Mnożenia
 - Potęgowania
+
   Ostatnia, finałowa runda, powinna dotyczyć (proszę wybrać 1 element)
+
 - Dzielenia całkowitego
 - Dzielenia zwykłego
 - Reszty z dzielenia
@@ -52,10 +54,15 @@ pozwala zapisać aktualny czas w sekundach. Proszę uzupełnić projekt o zlicza
 _Można posiłkować się pomocami, ale mogę zadać pytanie lub dwa o projekt pod koniec zajęć 😉_
 
 Punktacja:
+
 Poprawne pierwsze trzy rundy: `3 pkt`
+
 Poprawna runda finałowa: `2 pkt`
+
 Porządek i struktura kodu: `2 pkt` (warto dodać komentarze!)
+
 Interfejs użytkownika (jasne komunikaty): `1 pkt`
+
 Zrealizowanie zadania bonusowego: `+1 pkt`
 
 _Projekt z najwyższą oceną, jeśli autor wyrazi taką chęć, będzie pokazany na lekcji!_ 🏆
