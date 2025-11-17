@@ -23,3 +23,28 @@ dane_1 = [
 print(dane_1[2])
 print(dane_1[2][1])
 
+dane_2 = [
+    [47, 29, 88, 28],
+    [32, 54, 90, 63],
+    [91, 53, 58, 92],
+    [18, 34, 78, 99]
+]
+
+# Proszę podać, co wypiszą polecenia:
+print(dane_2[1])  # [32, 54, 90, 63]
+print(dane_2[2][0]) # 91
+print(dane_2[0][0]) # 47
+print(dane_2[3][3]) # 99
+#print(dane_2[2][4]) błąd
+
+# -----------------------------------------
+
+przyklad = [1, 2, 3, 4]
+
+przyklad.append(5) # Dodaj na końcu listy
+przyklad.append(8)
+
+print(przyklad)
+print( len(przyklad) ) # Długość (liczba elementów listy) -> tutaj 6.
+
+oceny = []
