@@ -8,3 +8,11 @@ for znak in tekst:
 # średnią tych przedmiotów.
 
 # Średnia ocen to suma wszystkich ocen podzielona przez ich liczbę.
+
+wdi = float(input())
+unix = float(input())
+funkcyjne = float(input())
+statystyka = float(input())
+
+srednia = (wdi + unix + funkcyjne + statystyka) / 4
+print(srednia)
