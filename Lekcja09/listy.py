@@ -47,4 +47,26 @@ przyklad.append(8)
 print(przyklad)
 print( len(przyklad) ) # Długość (liczba elementów listy) -> tutaj 6.
 
+print("--- ŚREDNIA OCEN ---")
+
 oceny = []
+
+while True:
+    ocena = input("Podaj kolejną ocenę lub 'q' żeby zakończyć: ")
+
+    if ocena == "q":
+        break
+    else:
+        oceny.append(float(ocena))
+
+suma = 0
+
+for ocena in oceny:
+    suma += ocena
+
+print(suma / len(oceny))
+
+lista = [0, 2, 5]
+
+for i in range(len(lista)):
+    lista[i] **= 3
