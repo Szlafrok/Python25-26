@@ -1,4 +1,4 @@
-# Termin wysłania zadań: 30.11
+# Termin wysłania zadań: 7.12
 
 ### Zasady i sposób wysyłania zadań: [LINK](https://github.com/Szlafrok/Python25-26/blob/main/Zasady%20i%20informacje/zasady_zadan.md)
 
@@ -103,3 +103,39 @@ Otrzymamy prostokąt:
 ```
 
 _Podpowiedź: Proszę wykorzystać mnożenie stringów._
+
+---
+
+### Zadanie L9-1 `3 pkt`
+Proszę napisać program, który odwraca kolejność elementów dowolnej listy i wypisuje ją zgodnie z szablonem:
+```py
+lista_a = [-5, -3, 1, 5, 100]
+lista_b = []
+# Kod odwracajacy liste "lista_a" wpisz ponizej
+
+
+
+# Pokaz obie listy
+print(lista_a)
+print(lista_b) # Oczekiwane dla tych danych: [100, 5, 1, -3, 5]
+```
+
+---
+
+### Zadanie L10-1 `1 pkt`
+Proszę napisać funkcję, która przyjmie jako argumenty boki prostokąta `a` oraz `b` i wypisuje do konsoli jego pole.
+
+### Zadanie L10-2
+Proszę napisać funkcję `join(lacznik, teksty)`, która przyjmuje jako argumenty:
+- stringa `lacznik`
+- listę stringów `teksty`
+i wypisuje pojedynczy ciąg złożony z kolejnych elementów listy teksty, połączonych pomiędzy sobą łącznikami.
+
+Przykłady:
+
+- `join("/", ["bardzo", "lubię", "ciastka"])` -> `"bardzo/lubię/ciastka"`
+- `join("-", ["i have", "your food", "sir"])` -> `"i have-your food-sir"`
+- `join("%", ["pojedynczy element"])`         -> `"pojedynczy element"`
+
+*Wskazówka: argument `end = ""` w funkcji print() może być przydatne w jednym ze sposobów rozwiązania.*
+**W tym zadaniu nie wolno korzystać z wbudowanej metody stringów .join()! Skrypt należy napisać samodzielnie.**
