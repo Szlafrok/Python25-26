@@ -125,7 +125,7 @@ print(lista_b) # Oczekiwane dla tych danych: [100, 5, 1, -3, 5]
 ### Zadanie L10-1 `1 pkt`
 Proszę napisać funkcję, która przyjmie jako argumenty boki prostokąta `a` oraz `b` i wypisuje do konsoli jego pole.
 
-### Zadanie L10-2
+### Zadanie L10-2 `3 pkt`
 Proszę napisać funkcję `join(lacznik, teksty)`, która przyjmuje jako argumenty:
 - stringa `lacznik`
 - listę stringów `teksty`

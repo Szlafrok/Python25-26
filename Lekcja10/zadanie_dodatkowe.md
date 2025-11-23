@@ -6,14 +6,17 @@ Ciąg arytmetyczny to taki ciąg liczb, że pomiędzy dwoma sąsiednimi elementa
 - Ciąg `[2, 6, 4, 8, 10]` NIE jest ciągiem arytmetycznym.
 
 Proszę napisać funkcję arytm(ciag), która przyjmuje jako argument listę liczb całkowitych i zwraca:
->>> True, jeżeli ciąg jest arytmetyczny
->>> False, jeżeli ciąg nie jest arytmetyczny.
+- True, jeżeli ciąg jest arytmetyczny
+- False, jeżeli ciąg nie jest arytmetyczny.
 
 **Przykład:** Dla podanych wywołań otrzymamy:
 
 `arytm([-1, 5, 11, 17, 23])` -> `True` (różnica == 6)
+
 `arytm([5, 4, 3, 2, 1])` -> `True` (różnica == -1)
+
 `arytm([5, 5, 5, 5])` -> `True` (różnica == 0)
+
 `arytm([7, 8, 7, 6])` -> `False` (różnica nie jest stała)
 
 Szablon:
