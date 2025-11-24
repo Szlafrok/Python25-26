@@ -27,3 +27,26 @@ sumuj_elementy(lista2)
 
 sumuj_elementy(lista3)
 
+def wypisz_wymaluj(wyraz, powtorzenia):
+    for i in range(powtorzenia):
+        print(wyraz)
+
+wypisz_wymaluj("wrunel drwal z maka wieś mac", 5)
+
+# def print(): TAK NIE ROBIMY!!!!!!!!!!!!!!!!!!!
+# print = 5 TAK TEŻ NIE ROBIMY !!!!!!!!!!!!!!!!!!    
+
+"""
+    ZADANIE SAMODZIELNE!
+
+    Proszę napisać funkcję, która przyjmie jako argument
+    bok kwadratu a i policzy jego obwód
+"""
+
+def obwod_protokata(a, b):
+    print(2*a + 2*b)
+
+obwod_protokata(2, 3)
+
+def obwod_kwadratu(a):
+    print(4*a)
