@@ -17,6 +17,7 @@ def sumuj_elementy(lista):
         wynik += elem
     print(wynik)
 
+print("sumy")
 lista1 = [2, 4, 5]
 lista2 = [6, 7, 8, 9]
 lista3 = [1, 2, 3, 1, 2, 3, 1, 2, 3]

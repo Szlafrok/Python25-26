@@ -9,3 +9,5 @@ def nww(a: int, b: int) -> int:
 def nwd(a:int, b:int) -> int:
     pass
 ```
+
++2 pkt: proszę uprościć funkcję z początku zajęć
