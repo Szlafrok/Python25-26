@@ -1,4 +1,5 @@
-def trojkat(a, b, c):
+def trojkat(a, b = 3, c = 4):
+    print(a, b, c)
     if a >= b and a >= c:
         if b + c > a:
             print("Trójkąt istnieje")
@@ -16,3 +17,28 @@ def trojkat(a, b, c):
             print("Trójkąt nie istnieje")
 
 trojkat(2, 3, 10)
+
+trojkat(2, 3) # istnieje: 2, 3, 4
+
+trojkat(1, 1) # nie istnieje: 1, 1, 4
+
+trojkat(b = 6, a = 8, c = 10)
+
+#trojkat(4, a = 8, c = 10) błąd: podajemy 2 różne wartości a
+
+trojkat(6, c = 10, b = 8)
+
+
+# ZADANIE SAMODZIELNE!
+
+# Proszę napisać funkcję, która przyjmuje jako argumenty stringa s oraz 
+# liczbę x, a następnie wypisuje:
+
+# - TAK, jeśli długość stringa s jest podzielna przez x
+# - NIE, jeśli tak nie jest
+
+
+
+# len(treść) - podaje liczbę znaków w danym stringu albo liczbę elementów listy
+# % - reszta z dzielenia
+# reszta z dzielenia jest równa 0 <=> liczby są podzielne
