@@ -61,3 +61,34 @@ def podzielne2(s: str, x: int) -> bool:
         return False
     
 print(podzielne2("kebabownia", 2))
+print(podzielne2("kebabowniaa", 2))
+
+def podzielne3(s, x):
+    if len(s) % x == 0:
+        return True
+    return False
+
+print(podzielne3("kebabownia", 2))
+print(podzielne3("kebabowniaa", 2))
+
+def podzielne4(s, x):
+    return len(s) % x == 0
+
+# Zadanko przykładowe
+
+# Napisz funkcję, która jako argument otrzymuje listę elementów, w której mogą
+# występować powtórzenia, a zwraca listę unikalnych elementów.
+#Dla [1,2,3,3,3,3,4,5] oczekujemy [1, 2, 3, 4, 5]
+
+# Należy zaprezentować instrukcję in: elem in lista
+
+def powtorzenia(lista: list) -> list:
+    unikaty = []
+    for elem in lista:
+        if elem not in unikaty:
+            unikaty.append(elem)
+    return unikaty
+
+print(powtorzenia([1,2,3,3,3,3,4,5]))
+
+import pygame
