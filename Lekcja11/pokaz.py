@@ -1,4 +1,4 @@
-def trojkat(a, b = 3, c = 4):
+def trojkat(a: int, b: int = 3, c: int = 4):
     print(a, b, c)
     if a >= b and a >= c:
         if b + c > a:
@@ -42,3 +42,22 @@ trojkat(6, c = 10, b = 8)
 # len(treść) - podaje liczbę znaków w danym stringu albo liczbę elementów listy
 # % - reszta z dzielenia
 # reszta z dzielenia jest równa 0 <=> liczby są podzielne
+
+def podzielne(s: str, x: int) -> None:
+    if len(s) % x == 0:
+        print("TAK")
+    else:
+        print("NIE")
+
+def power(podstawa: int, wykladnik: int) -> int:
+    return podstawa ** wykladnik
+
+print(power(2, 3) + 2)
+
+def podzielne2(s: str, x: int) -> bool:
+    if len(s) % x == 0:
+        return True
+    else:
+        return False
+    
+print(podzielne2("kebabownia", 2))
