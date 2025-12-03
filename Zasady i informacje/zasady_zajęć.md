@@ -15,8 +15,11 @@ Alternatywnie zadania w mniejszych zestawach można podawać do sprawdzenia na k
 - Za aktywność na zajęciach uzyskujemy od 1 do 5 gwiazdek. Każda gwiazdka przelicza się na 10 punktów.
 
 Podstawowe gwiazdki: ⭐
+
 Praca na lekcji i wykonywanie zadań: ❌ lub ⭐
+
 Aktywność na zajęciach: ❌ lub ⭐ lub ⭐⭐, zależnie od liczby plusów. Jeśli zdobędziemy mniej niż 2 gwiazdki, część plusów przenosi się na następne zajęcia.
+
 Rozwiązanie zadań dodatkowych: ❌ lub ⭐. Gwiazdkę zdobywamy po rozwiązaniu określonej części zadań. Na niektórych lekcjach, jeśli rozwiążemy ich więcej, możemy zarobić dodatkowe plusy do tej lub następnej lekcji!
 
 ### Praca ze wsparciem 🤖
