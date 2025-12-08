@@ -27,6 +27,7 @@ Proszę napisać funkcję `perfect(n)`, która przyjmuje liczbę naturalną `n` 
 - `False`, jeśli `n` nie jest liczbą doskonałą
 
 ---
+Damian 3 pkt
 
 ### Zadanie L13-2 `3 pkt`
 

@@ -139,3 +139,5 @@ Przykłady:
 
 *Wskazówka: argument `end = ""` w funkcji print() może być przydatne w jednym ze sposobów rozwiązania.*
 **W tym zadaniu nie wolno korzystać z wbudowanej metody stringów .join()! Skrypt należy napisać samodzielnie.**
+
+Bartek 3 pkt

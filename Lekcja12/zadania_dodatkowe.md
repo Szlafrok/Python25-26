@@ -19,6 +19,7 @@ Zaproponuj własne zadanie programistyczne, które wymaga stworzenia i użycia c
 
 Następnie rozwiąż wymyślone przez siebie zadanie.
 
+Damian 5 pkt
 ---
 
 ### Zadanie L12-2 `3 pkt`
@@ -41,6 +42,7 @@ Funkcja powinna zwrócić:
 - `True`, jeśli użytkownik poprawnie się zaloguje,
 - `False`, jeśli wykorzysta wszystkie próby i dalej nie poda poprawnych danych.
 
+Damian 3 pkt
 ---
 
 ### Zadanie L12-3 `2 pkt`
@@ -50,4 +52,5 @@ Proszę napisać funkcję `cyfry(n)`, która przyjmuje jako argument liczbę nat
 Przykład:
 `cyfry(1235)` -> 1 + 2 + 3 + 5 = 11
 
+Damian 2 pkt
 ---
