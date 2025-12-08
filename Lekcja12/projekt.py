@@ -9,9 +9,19 @@ screen_surface = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
 game_status = True
 
+
+
+liczenie = 0
 while game_status:
     events = pygame.event.get()
 
+    for event in events:
+        if event.type == pygame.QUIT:
+            game_status = False
+        elif event.type == pygame.KEYDOWN:
+            if 
+
     pygame.display.update()
+    print(liczenie)
 
 pygame.quit()
