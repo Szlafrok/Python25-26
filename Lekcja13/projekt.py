@@ -9,6 +9,10 @@ def load_image(img_path, position):
 
     return [image, surface, rect]
 
+def print_image(img_data):
+    _, surface, rect = img_data
+    screen_surface.blit(surface, rect)
+    return
 
 import pygame
 pygame.init()
@@ -18,6 +22,9 @@ SCREEN_HEIGHT = 600 # Wysokość
 
 screen_surface = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("Pierwsza gra")
+
+player_pos = [SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2]
+player = load_image("Lekcja13/assets/player.png", player_pos)
 
 game_status = True
 
@@ -34,7 +41,9 @@ while game_status:
             keys = pygame.key.get_pressed()
             if keys[pygame.K_ESCAPE]:
                 game_status = False
-                
+
+    print_image(player)
+
     pygame.display.update()
     #print(liczenie)
     clock.tick(60)
