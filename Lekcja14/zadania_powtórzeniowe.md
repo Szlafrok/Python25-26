@@ -32,6 +32,8 @@ XX to wartość liczbowa
 Jeśli wprowadzono niepoprawny numer miesiąc program powinien wyświetlić informację:
 "Wprowadzono niepoprawny numer miesiąca. Spróbuj ponownie"
 
+Bonus `10 pkt` Prosze zastosować schemat `match ... case`
+
 5. `30 pkt` Napisz program, który zapyta użytkownika o liczbę, a następnie wypisze na ekranie tyle wyników z rzutu kością sześcienną. Rzut kością sześcienną to wynik z losowania liczby od 1 do 6 (włącznie).
 
 _Wskazówka: skorzystaj z instrukcji `from random import randint` aby wczytać funkcję `randint()`!_
