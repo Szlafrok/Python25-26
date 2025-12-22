@@ -52,3 +52,18 @@ return # Tu wstaw co zwracasz
 ```
 
 Bonus `10 pkt`: Dodaj type hinting i komentarze do definicji funkcji
+
+7. `40 pkt` Przygotuj funkcję, która otrzymuje jeden argument: n - liczbę elementów.
+Funkcja ma zwrócić listę n - losowych elementów od 0 do 100
+Wywołaj ją kilka razy, aby sprawdzić, czy za każdym razem zwraca różne wartości
+
+8. `70 pkt` Ambroży przygotowywał pierogi na świąteczny stół. Przygotowywał je bardzo starannie, tak, że wszystkie pierogi przyjaźnią się ze sobą. Każdy pieróg ma wysmażoną liczbę naturalną, a przyjaźniące się pierogi cechują się tym, że sumy cyfr ich liczb są sobie równe. Młody kucharz popełnił jednak błąd – idąc na spacer z grecką wyrocznią Pytią, zostawił pierogi niepilnowane! Korzystając z jego nieobecności pewien okropny hultaj włamał się do domu Ambrożego, po czym podmienił jeden z pierogów na inny, który nie przyjaźni się z żadnym innym pierogiem.
+Twoim zadaniem jest pomóc Ambrożemu znaleźć niepasującego pieroga.
+Proszę napisać funkcję ambrozy(pierogi), która:
+• Przyjmuje jako argument listę pierogi – na tę listę składają się liczby naturalne, będące numerami wszystkich pierogów Ambrożego.
+• Zwraca numer pieroga, który nie pasuje do pozostałych.
+Przykładowo: dla danych:
+```py
+pierogi = [15, 6, 24, 42, 34, 60]
+```
+wynikiem funkcji powinno być 34 – wszystkie pozostałe numery mają sumę cyfr równą 6.
