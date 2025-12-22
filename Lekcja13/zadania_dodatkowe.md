@@ -42,3 +42,5 @@ Proszę dodać do projektu funkcję sprintu - kiedy gracz trzyma klawisz shift, 
 ---
 
 _Zostaną dodane 1-3 zadania z lekcji 15 - będzie to bliżej terminu zajęć!_
+
+Damian 2 pkt

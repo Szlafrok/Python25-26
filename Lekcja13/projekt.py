@@ -23,6 +23,7 @@ def calculate_movement(keys):
     speed = 10
     delta_x = 0
     delta_y = 0
+
     if keys[pygame.K_w]:
         delta_y -= speed
     if keys[pygame.K_s]:

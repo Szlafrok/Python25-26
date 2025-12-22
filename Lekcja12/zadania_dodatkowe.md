@@ -43,6 +43,7 @@ Funkcja powinna zwrócić:
 - `False`, jeśli wykorzysta wszystkie próby i dalej nie poda poprawnych danych.
 
 Damian 3 pkt
+Stasiek 3 pkt
 ---
 
 ### Zadanie L12-3 `2 pkt`
