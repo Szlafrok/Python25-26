@@ -59,15 +59,15 @@ while game_status:
         if event.type == pygame.QUIT:
             game_status = False
         elif event.type == pygame.KEYDOWN:
-
-            keys = pygame.key.get_pressed()
             if keys[pygame.K_ESCAPE]:
                 game_status = False
 
-            delta_x, delta_y = calculate_movement(keys)
-            player_pos[0] += delta_x
-            player_pos[1] += delta_y
-            player = set_position_image(player, player_pos)
+        keys = pygame.key.get_pressed()
+
+    delta_x, delta_y = calculate_movement(keys)
+    player_pos[0] += delta_x
+    player_pos[1] += delta_y
+    player = set_position_image(player, player_pos)
 
     screen_surface.fill(background_color) 
     print_image(player)
