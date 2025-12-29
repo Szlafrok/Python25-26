@@ -20,3 +20,13 @@ def dzies_na_binarne(n: int) -> str:
     return wynik
 
 print(dzies_na_binarne(310))
+
+# Palindrom to taki wyraz, który od tyłu czyta się tak samo, jak od przodu.
+# Proszę napisać funkcję, która przyjmuje jako argument jakiś tekst (1 słowo)
+# i zwraca True, jeśli to słowo jest palindromem, lub False, jeśli nie jest (+++)
+
+# [Dod] Proszę przepisać tę funkcję tak, żeby ignorowała spacje i wielkość liter (+)
+
+# Szablon funkcji:
+def czy_palindom(t: str) -> bool:
+    pass
