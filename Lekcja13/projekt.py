@@ -58,12 +58,10 @@ while game_status:
     for event in events:
         if event.type == pygame.QUIT:
             game_status = False
-        elif event.type == pygame.KEYDOWN:
-            if keys[pygame.K_ESCAPE]:
-                game_status = False
 
-        keys = pygame.key.get_pressed()
-
+    keys = pygame.key.get_pressed()
+    if keys[pygame.K_ESCAPE]:
+        game_status = False
     delta_x, delta_y = calculate_movement(keys)
     player_pos[0] += delta_x
     player_pos[1] += delta_y
