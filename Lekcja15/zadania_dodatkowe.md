@@ -8,12 +8,20 @@ Aby zdobyć bonusy, potrzebujemy:
 | Nagroda | Minimalny wynik |
 | ------- | --------------- |
 | ⭐ | 5 pkt |
-| ⭐➕ | 6.5 pkt |
-| ⭐➕➕ | 8 pkt |
-| ⭐➕➕➕ | 9.5 pkt |
-| ⭐➕➕➕➕ | 10.5 pkt |
+| ⭐➕ | 7 pkt |
+| ⭐➕➕ | 9 pkt |
+| ⭐➕➕➕ | 11 pkt |
+| ⭐➕➕➕➕ | 13 pkt |
+| ⭐➕➕➕➕➕ | 14.5 pkt |
 
-### Zadanie L15-1 `3 pkt`
+### Zadanie L15-1 `3 pkt
+Liczba `4023123` może być w systemie liczbowym co najwyżej piątkowym, ponieważ występuje w niej cyfra 4. Nie może to być zatem system czwórkowy, ale system piątkowy, szóstkowy, siódemkowy, itd. już tak.
+
+Proszę zaimplementować funkcję `minsys(n)`, która przyjmie ciąg cyfr `n` i zwróci najmniejszą podstawę systemu, w jakim może być zapisana ta liczba. Przykładowo, dla `4023123` najmniejszą podstawą systemu jest 5 (bo system piątkowy).
+
+---
+
+### Zadanie L15-2 `3 pkt`
 
 Proszę zaimplementować funkcję trojeczka(n), która przyjmuje jako argument liczbę naturalną n zapisaną w systemie dziesiętnym i zwraca tę liczbę w systemie trójkowym. Przykładowo, dla wywołania:
 
@@ -66,6 +74,8 @@ WSKAZÓWKI:
 1. Proszę skorzystać z implementacji z lekcji, która sprawdza, czy wyraz jest palindromem. Przyda się ;)
 2. Warto będzie skorzystać z pętli for, a nawet dwóch.
 3. Oznaczaj cwane wyrazy jako True w liście "cwane"! Suma wszystkich elementów listy zawierającej wartości typu `bool` jest równa liczbie elementów o wartości `True`, bo `True` jest równe 1!
+
+---
 
 ### Zadanie L15-3 `4 pkt`
 Rozkład liczby N na czynniki pierwsze to rozkład liczby na iloczyn taki, że wszystkie liczby rozkładu przemnożone przez siebie dają liczbę początkową N, oraz każda liczba rozkładu jest liczbą pierwszą.
