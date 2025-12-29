@@ -40,7 +40,7 @@ Proszę napisać funkcję `perfect(n)`, która przyjmuje liczbę naturalną `n` 
 
 ---
 
-### Zadanie L15-2 `5 pkt`
+### Zadanie L15-3 `5 pkt`
 
 SZABLON:
 ```py
@@ -77,7 +77,7 @@ WSKAZÓWKI:
 
 ---
 
-### Zadanie L15-3 `4 pkt`
+### Zadanie L15-4 `4 pkt`
 Rozkład liczby N na czynniki pierwsze to rozkład liczby na iloczyn taki, że wszystkie liczby rozkładu przemnożone przez siebie dają liczbę początkową N, oraz każda liczba rozkładu jest liczbą pierwszą.
 
 Proszę zaimplementować funkcję `prime_factors(n)`, która przyjmie jako argument liczbę naturalną dodatnią `n` i zwróci listę jej czynników pierwszych.
