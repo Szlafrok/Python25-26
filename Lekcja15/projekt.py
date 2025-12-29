@@ -9,3 +9,14 @@ def binarne_na_dzies(n: str) -> int: # z systemu binarnego
     return res
 
 print(binarne_na_dzies("100110110"))
+
+# Zadanie 2
+
+def dzies_na_binarne(n: int) -> str:
+    wynik = ""
+    while n > 0:
+        wynik = str(n % 2) + wynik
+        n //= 2
+    return wynik
+
+print(dzies_na_binarne(310))
