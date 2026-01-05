@@ -26,6 +26,12 @@ def wyplata_pieniedzy(saldo, wartosc): # Funkcja przyjmuje argumenty i zwraca NO
     wypisz_stan_konta(nowe_saldo)
     return nowe_saldo
 
+# Proszę:
+# 1. Uzupełnić kod do aktualnej formy (+)
+# 2. Napisać funkcję wplata_pieniedzy(saldo, wartosc), która zwraca nowe saldo i wypisuje odpowiednie
+#    informacje podobnie jak funkcja wplata_pieniedzy (++)
+# 3. Proszę odpowiednio zastosować tę funkcję w głównej pętli projektu (czyli pętli while) (+)
+
 
 wybor = 0
 saldo = 0
