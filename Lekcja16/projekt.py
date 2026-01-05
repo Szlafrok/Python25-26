@@ -26,6 +26,12 @@ def wyplata_pieniedzy(saldo, wartosc): # Funkcja przyjmuje argumenty i zwraca NO
     wypisz_stan_konta(nowe_saldo)
     return nowe_saldo
 
+def wplata_pieniedzy(saldo, wartosc):
+    print(f"Wpłacono {wartosc} zł!")
+    nowe_saldo = saldo + wartosc
+    wypisz_stan_konta(nowe_saldo)
+    return nowe_saldo
+
 # Proszę:
 # 1. Uzupełnić kod do aktualnej formy (+)
 # 2. Napisać funkcję wplata_pieniedzy(saldo, wartosc), która zwraca nowe saldo i wypisuje odpowiednie
@@ -41,10 +47,11 @@ while True:
     wybor = wczytaj_dane("Podaj wybór: ")
 
     if wybor == 1:
-        pass
+        wartosc = wczytaj_dane("Podaj wartość: ")
+        saldo = wplata_pieniedzy(saldo, wartosc)
     elif wybor == 2:
         wartosc = wczytaj_dane("Podaj wartość: ")
-        wyplata_pieniedzy(saldo, wartosc)
+        saldo = wyplata_pieniedzy(saldo, wartosc)
     elif wybor == 3:
         wypisz_stan_konta(saldo)
     elif wybor == 4:
