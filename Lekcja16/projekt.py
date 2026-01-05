@@ -73,3 +73,4 @@ waluty = {"zl": 1,
           "euro": 5}
 
 print(waluty["dolar"])
+

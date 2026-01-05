@@ -12,7 +12,7 @@ Aby zdobyć bonusy, potrzebujemy:
 | ⭐➕➕ | 9 pkt |
 | ⭐➕➕➕ | 10 pkt |
 
-### Zadanie L16-1 `3 pkt
+### Zadanie L16-1 `3 pkt`
 Korzystając z przygotowanego w czasie lekcji projektu w pliku projekt.py proszę zaimplementować limit salda konta. Limit powinien być ustawiany za pomocą stałej:
 
 ```py
