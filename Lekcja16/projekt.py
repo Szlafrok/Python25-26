@@ -18,3 +18,29 @@ saldo = 0
 while True:
     glowne_menu()
     wybor = wczytaj_dane()
+
+    if wybor == 1:
+        pass
+    elif wybor == 2:
+        pass
+    elif wybor == 3:
+        pass
+    elif wybor == 4:
+        print("Aplikacja została zamknięta!")
+        break
+    else:
+        print("Niepoprawny wybór!")
+    print()
+
+
+
+
+# (Można skorzystać z czatu GPT, ale trzeba to dorzbe wytłumaczyć) 
+# Jaka struktura danych mogłaby przechowywać kursy 
+# walut w naszym projekcie (++)
+
+waluty = {"zl": 1, 
+          "dolar": 4,
+          "euro": 5}
+
+print(waluty["dolar"])
