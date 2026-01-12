@@ -20,6 +20,22 @@ def przetlumacz_slowo(slowo):
             return wyrazenie[0]
     return ""
 
+def oblicz_z_tekstu(tekst: str):
+    wynik = None
+    liczba = ''
+    operacja = ''
+    for znak in tekst:
+        if znak.isdigit():
+            liczba += znak # konkatenacja
+        else:
+            if wynik == None:
+                wynik = int(liczba)
+                operacja += znak
+            else:
+                pass
+
+
+
 for slowo in tekst.split(" "):
     dzialanie += przetlumacz_slowo(slowo)
 
