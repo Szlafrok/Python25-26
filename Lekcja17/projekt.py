@@ -25,6 +25,12 @@ def oblicz(liczba1, liczba2, operator):
         return liczba1 + liczba2
     elif operator == '-':
         return liczba1 - liczba2
+    elif operator == '/':
+        return liczba1 / liczba2
+    elif operator == '*':
+        return liczba1 * liczba2
+    else:
+        raise Exception(f"Niepoprawna operacja: {operator}")
 
 def oblicz_z_tekstu(tekst: str):
     wynik = None
