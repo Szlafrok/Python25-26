@@ -20,6 +20,12 @@ def przetlumacz_slowo(slowo):
             return wyrazenie[0]
     return ""
 
+def oblicz(liczba1, liczba2, operator):
+    if operator == '+':
+        return liczba1 + liczba2
+    elif operator == '-':
+        return liczba1 - liczba2
+
 def oblicz_z_tekstu(tekst: str):
     wynik = None
     liczba = ''
