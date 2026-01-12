@@ -28,7 +28,7 @@ def oblicz(liczba1, liczba2, operator):
     elif operator == '/':
         return liczba1 / liczba2
     elif operator == '*':
-        return liczba1 * liczba2
+        return liczba1 * liczba2 # d       p      5p2 = 5**2 = 25
     else:
         raise Exception(f"Niepoprawna operacja: {operator}")
 
@@ -42,13 +42,19 @@ def oblicz_z_tekstu(tekst: str):
         else:
             if wynik == None:
                 wynik = int(liczba)
-                operacja += znak
+                operacja = znak
+                liczba = ''
             else:
-                pass
+                wynik = oblicz(wynik, int(liczba), operacja)
+                liczba = ''
+                operacja = znak
+    if liczba:
+        wynik = oblicz(wynik, int(liczba), operacja)
+    return wynik
 
 
 
 for slowo in tekst.split(" "):
     dzialanie += przetlumacz_slowo(slowo)
 
-print(dzialanie)
+print(oblicz_z_tekstu(dzialanie))
