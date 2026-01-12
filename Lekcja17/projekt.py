@@ -18,6 +18,9 @@ def przetlumacz_slowo(slowo):
     for wyrazenie in baza:
         if slowo in wyrazenie:
             return wyrazenie[0]
+    return ""
 
 for slowo in tekst.split(" "):
-    pass
+    dzialanie += przetlumacz_slowo(slowo)
+
+print(dzialanie)
