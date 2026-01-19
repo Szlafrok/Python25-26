@@ -6,7 +6,7 @@ punkty = ["Brak"] * 6 # [-1, -1, -1, -1, -1, -1]
 def wypisz_punkty():
     print("______________________")
     for i in range(len(punkty)):
-        print(f"{i+1}. {nazwy_punktow[i]}: {punkty[i]}")
+        print(f"{i+1}. {nazwy_punktow[i]}: {punkty[i]}") # tu
 
 
 def przerzuc_kosci(numery_kosci: str) -> None: # 145
@@ -19,7 +19,7 @@ def wypisz_kosci():
     print("______________________")
 
     for i in range(len(kosci)):
-        print(f"{i+1}. {kosci[i]}")
+        print(f"{i+1}. {kosci[i]}")  # tu
     
     print("______________________")
 
@@ -35,20 +35,20 @@ def wybor_pola():
     return 0
 
 while "Brak" in punkty:
-    przerzuc_kosci("12345")
+    przerzuc_kosci("12345") # losujemy wszystkie kości
     wypisz_punkty()
     wypisz_kosci()
-    for i in range(2):
+    for i in range(2): # 2 przerzuty
         przerzut = czy_przerzucac_kosci()
         if przerzut:
             do_przerzutu = input("Podaj numery kości do przerzutu (bez spacji): ")
-            przerzuc_kosci(do_przerzutu)
+            przerzuc_kosci(do_przerzutu) # gracz wybiera kości do przerzutu i są one losowane
             wypisz_punkty()
             wypisz_kosci()
         else:
             break
     wybor = 0
-    while wybor == 0:
+    while wybor == 0: # dopóki gracz nie poda wyboru bez punktów, wybór jest powtarzany
         wybor = wybor_pola()
 
     print(punkty.count(wybor))
