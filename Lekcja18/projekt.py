@@ -1,5 +1,13 @@
 import random
 kosci = [0] * 5 # [0, 0, 0, 0, 0]
+nazwy_punktow = ["Jedynki", "Dwójki", "Trójki", "Czwórki", "Piątki", "Szóstki"]
+punkty = [-1] * 6 # [-1, -1, -1, -1, -1, -1]
+
+def wypisz_punkty():
+    print("______________________")
+    for i in range(len(punkty)):
+        print(f"{i+1}. {nazwy_punktow[i]}: {punkty[i]}")
+
 
 def przerzuc_kosci(numery_kosci: str) -> None: # 145
     for nr in numery_kosci:
@@ -22,4 +30,5 @@ def czy_przerzucac_kosci():
 
 
 przerzuc_kosci("12345")
+wypisz_punkty()
 wypisz_kosci()
