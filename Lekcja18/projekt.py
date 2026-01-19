@@ -34,18 +34,21 @@ def wybor_pola():
         return odp
     return 0
 
-przerzuc_kosci("12345")
-wypisz_punkty()
-wypisz_kosci()
-for i in range(2):
-    przerzut = czy_przerzucac_kosci()
-    if przerzut:
-        do_przerzutu = input("Podaj numery kości do przerzutu (bez spacji): ")
-        przerzuc_kosci(do_przerzutu)
-        wypisz_punkty()
-        wypisz_kosci()
-    else:
-        break
-wybor = 0
-while wybor == 0:
-    wybor = wybor_pola()
+while "Brak" in punkty:
+    przerzuc_kosci("12345")
+    wypisz_punkty()
+    wypisz_kosci()
+    for i in range(2):
+        przerzut = czy_przerzucac_kosci()
+        if przerzut:
+            do_przerzutu = input("Podaj numery kości do przerzutu (bez spacji): ")
+            przerzuc_kosci(do_przerzutu)
+            wypisz_punkty()
+            wypisz_kosci()
+        else:
+            break
+    wybor = 0
+    while wybor == 0:
+        wybor = wybor_pola()
+
+print(f"Liczba punktów: {sum(punkty)}")
