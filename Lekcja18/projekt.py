@@ -51,4 +51,8 @@ while "Brak" in punkty:
     while wybor == 0:
         wybor = wybor_pola()
 
+    print(punkty.count(wybor))
+    print(wybor)
+    punkty[wybor-1] = kosci.count(wybor) * wybor
+
 print(f"Liczba punktów: {sum(punkty)}")
