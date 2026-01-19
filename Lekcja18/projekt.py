@@ -1,7 +1,7 @@
 import random
 kosci = [0] * 5 # [0, 0, 0, 0, 0]
 nazwy_punktow = ["Jedynki", "Dwójki", "Trójki", "Czwórki", "Piątki", "Szóstki"]
-punkty = [-1] * 6 # [-1, -1, -1, -1, -1, -1]
+punkty = ["Brak"] * 6 # [-1, -1, -1, -1, -1, -1]
 
 def wypisz_punkty():
     print("______________________")
@@ -32,3 +32,10 @@ def czy_przerzucac_kosci():
 przerzuc_kosci("12345")
 wypisz_punkty()
 wypisz_kosci()
+for i in range(2):
+    przerzut = czy_przerzucac_kosci()
+    if przerzut:
+        do_przerzutu = input("Podaj numery kości do przerzutu (bez spacji): ")
+        przerzuc_kosci(do_przerzutu)
+    else:
+        break
