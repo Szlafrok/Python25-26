@@ -28,6 +28,11 @@ def czy_przerzucac_kosci():
     odp = odp.lower()
     return odp == "t"
 
+def wybor_pola():
+    odp = int(input("Wybierz pole, na które chcesz wpisać punkty: "))
+    if punkty[odp-1] == "Brak":
+        return odp
+    return 0
 
 przerzuc_kosci("12345")
 wypisz_punkty()
@@ -37,5 +42,10 @@ for i in range(2):
     if przerzut:
         do_przerzutu = input("Podaj numery kości do przerzutu (bez spacji): ")
         przerzuc_kosci(do_przerzutu)
+        wypisz_punkty()
+        wypisz_kosci()
     else:
         break
+wybor = 0
+while wybor == 0:
+    wybor = wybor_pola()
