@@ -12,7 +12,7 @@ Aby zdobyć bonusy, potrzebujemy:
 | ⭐⭐ | 120 pkt |
 | ⭐⭐⭐ | 180 pkt |
 | ⭐⭐⭐⭐ | 240 pkt |
-| ⭐⭐⭐⭐⭐ | 340 pkt |
+| ⭐⭐⭐⭐⭐ | 300 pkt |
 
 ### Zadanie 1 `100 pkt`
 
