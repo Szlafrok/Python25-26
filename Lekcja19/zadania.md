@@ -16,6 +16,7 @@ Aby zdobyć bonusy, potrzebujemy:
 
 ### Zadanie 1 `100 pkt`
 
+(aby podejść do tego quizu ponownie, należy oddać do sprawdzenia **dwa zadania programistyczne!**)
 
 Proszę rozwiązać poniższy quiz:
 https://wayground.com/join?gc=58291670&source=liveDashboard
