@@ -1,7 +1,7 @@
 # Na gwiazdkę należy zdobyć 5 pkt
 
 """
-    ZADANIE 1 (0-3) + 2 dodatkowe (max. 5)
+    ZADANIE 1 (0-5)
 
     Proszę dokończyć klasę Przedmiot, która będzie przechowywać następujące informacje:
         oceny - lista ocen
@@ -16,6 +16,8 @@
 
 
 """
+
+
 
 class Przedmiot(): # SZABLON
     srednia = 0
@@ -54,3 +56,9 @@ informatyka.stworz_liste()
     c) Czy każda metoda jest funkcją? Czy każda funkcja jest metodą? Dlaczego?
 
 """
+
+
+# Zaliczenia zadania:
+# Antek: ⭐➕➕
+# Damian: ⭐➕➕
+# Stasiek: ⭐➕➕
