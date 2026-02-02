@@ -6,4 +6,4 @@ person.imie = "Jan"
 person.nazwisko = "Kowalski"
 person.wiek = 18
 
-print(person.dane())
+person.dane()
