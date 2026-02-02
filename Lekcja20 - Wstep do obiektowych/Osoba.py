@@ -3,15 +3,15 @@ class Osoba():
     nazwisko = ""
     wiek = 0
 
-    def dane(self):
-        return f"Jestem {self.imie} {self.nazwisko} i mam {self.wiek} lat."
-    
-        # Proszę wykomentować obecną zawartość metody dane(self) i zamienić jej
-        # działanie, tak aby:
-        
-        # - od razu printowała imię i nazwisko osoby
-        # - od razu printowała informację, czy jest ona pełnoletnia
+    def wprowadz(self, imie: str, nazwisko: str, wiek: int) -> None:
+        self.imie = imie
+        self.nazwisko = nazwisko
+        self.wiek = wiek
 
-        # - proszę następnie zmienić wywołanie metody dane() w pliku, gdzie
-        #   tworzymy te obiekty, biorąc pod uwagę, że funkcja sama w sobie
-        #   już wypisuje tekst, a nie zwraca stringa.
+    def dane(self):
+        # return f"Jestem {self.imie} {self.nazwisko} i mam {self.wiek} lat."
+        print(f"Jestem {self.imie} {self.nazwisko}")
+        if self.wiek >= 18:
+            print("Jesteś pełnoletni")
+        else:
+            print("Nie jesteś pełnoletni")
