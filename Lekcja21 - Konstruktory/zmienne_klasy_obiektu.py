@@ -20,8 +20,12 @@ class Samochod():
         print(self.mocKM)
 
 print(Samochod.marka)
-auto = Samochod("Honda", "Civic", "Wodór", 10)
-auto = Samochod("Honda", "Civic", "Wodór", 10)
-auto = Samochod("Honda", "Civic", "Wodór", 10)
-auto = Samochod("Honda", "Civic", "Wodór", 10)
+auto1 = Samochod("Honda", "Civic", "Wodór", 10)
+auto2 = Samochod("Honda", "Civic", "Wodór", 10)
+auto3 = Samochod("Toyota", "Civic", "Wodór", 10)
+auto4 = Samochod("Honda", "Civic", "Wodór", 10)
+
+print(auto1.marka)
+print(auto3.marka)
+
 print(Samochod.licznik)
