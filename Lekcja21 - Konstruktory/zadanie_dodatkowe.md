@@ -1,4 +1,4 @@
-# Termin wysłania zadań: 8.02.2026
+# Termin wysłania zadań: 8.03.2026
 
 ### Zasady i sposób wysyłania zadań: [LINK](https://github.com/Szlafrok/Python25-26/blob/main/Zasady%20i%20informacje/zasady_zadan.md)
 
