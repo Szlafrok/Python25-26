@@ -45,3 +45,6 @@ class Prostokat():
         print(self.pole)
 ```
 Proszę napisać klasę `Figura` i przenieść do niej elementy wspólne tych obu klas. Proszę uzależnić klasy `Kolo` i `Prostokat` od klasy `Figura` poprzez dziedziczenie, a następnie utworzyć obiekty obu tych klas z przykładowymi danymi i wywołać na nich metody `obw_wypisz()` i `pole_wypisz()`.
+
+
+Żaba: 5/5 ⭐➕➕

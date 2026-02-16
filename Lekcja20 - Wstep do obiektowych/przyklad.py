@@ -11,3 +11,5 @@ person3.wprowadz("Kurt", "Ziel Jones", 150)
 person.dane()
 person2.dane()
 person3.dane()
+
+print(person.imie)
