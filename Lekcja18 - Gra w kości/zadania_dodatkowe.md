@@ -11,12 +11,12 @@ Aby zdobyć bonusy, potrzebujemy:
 | ⭐➕ | 5 pkt |
 | ⭐➕➕ | 6 pkt |
 
-### Zadanie L15-1 `3 pkt`
+### Zadanie L18-1 `3 pkt`
 Proszę opatrzyć dzisiejszy projekt komentarzami i opisać, co robią poszczególne elementy. Proszę także uzupełnić type hinting.
 
 ---
 
-### Zadanie L15-2 `3 pkt`
+### Zadanie L18-2 `3 pkt`
 Spójny ciąg rosnący to ciąg kolejnych elementów listy L, w którym każdy kolejny element jest większy od poprzedniego.
 
 Proszę napisać funkcję, która przyjmuje jako argument listę L zawierającą liczby naturalne i zwraca długość najdłuższego spójnego ciągu rosnącego.
