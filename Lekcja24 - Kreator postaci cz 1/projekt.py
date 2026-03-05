@@ -10,6 +10,7 @@ ekran = pygame.display.set_mode([SCREEN_WIDTH, SCREEN_HEIGHT])
 clock = pygame.time.Clock()
 
 game_active = True 
+
 while game_active:
     # Obsługa zdarzeń / Event handling
     for zdarzenie in pygame.event.get():
@@ -19,4 +20,10 @@ while game_active:
         elif zdarzenie.type == pygame.QUIT:
             game_active = False
 
-    
+    ekran.blit(bg_image, (0, 0))
+    pygame.display.flip()
+    clock.tick(60)
+    game_active = True
+
+print("Opuszczono grę")
+pygame.quit()
