@@ -21,3 +21,17 @@ class Element():
         self.selected += 1
         if self.selected > 2:
             self.selected = 0
+
+    def getSelectedImage(self):
+        return self.image_list[self.selected].image
+    
+class Hat(Element):
+    def __init__(self):
+        super().__init__("head")
+
+class Torso(Element):
+    def __init__(self):
+        super().__init__("body")
+
+# Proszę utworzyć klasy Eyes oraz Hand, które będą przechowywały
+# odpowiednio grafiki typu 'eye' oraz 'weapon'
