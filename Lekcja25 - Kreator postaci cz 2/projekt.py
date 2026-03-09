@@ -22,17 +22,27 @@ while game_active:
     # Obsługa zdarzeń / Event handling
     for zdarzenie in pygame.event.get():
         if zdarzenie.type == pygame.KEYDOWN:
+            
             if zdarzenie.key == pygame.K_ESCAPE:
                 game_active = False
+            elif zdarzenie.key == pygame.K_q:
+                character_eyes.selectNext()
+            elif zdarzenie.key == pygame.K_w:
+                character_hand.selectNext()
+            elif zdarzenie.key == pygame.K_e:
+                character_hat.selectNext()
+            elif zdarzenie.key == pygame.K_r:
+                character_torso.selectNext()
+
         elif zdarzenie.type == pygame.QUIT:
             game_active = False
 
     ekran.blit(bg_image, (0, 0))
     ekran.blit(character_image, (270, 130))
-    ekran.blit(character_eyes, (270, 130))
-    ekran.blit(character_hand, (270, 130))
-    ekran.blit(character_hat, (270, 130))
-    ekran.blit(character_torso, (270, 130))
+    ekran.blit(character_eyes.getSelectedImage(), (270, 130))
+    ekran.blit(character_hand.getSelectedImage(), (270, 130))
+    ekran.blit(character_hat.getSelectedImage(), (270, 130))
+    ekran.blit(character_torso.getSelectedImage(), (270, 130))
     pygame.display.flip()
     clock.tick(60)
 
