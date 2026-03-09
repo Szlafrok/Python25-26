@@ -6,6 +6,10 @@ from setup import SCREEN_WIDTH, SCREEN_HEIGHT, IMAGE_PATH
 bg_image = pygame.image.load(f"{IMAGE_PATH}background.png")
 character_image = pygame.image.load(f"{IMAGE_PATH}base.png")
 character_hat = Element.Hat() # Proszę uzupełnić pozostałe obiekty
+character_torso = Element.Torso()
+character_hand = Element.Hand()
+character_eyes = Element.Eyes()
+
 
 pygame.init()
 
@@ -25,6 +29,10 @@ while game_active:
 
     ekran.blit(bg_image, (0, 0))
     ekran.blit(character_image, (270, 130))
+    ekran.blit(character_eyes, (270, 130))
+    ekran.blit(character_hand, (270, 130))
+    ekran.blit(character_hat, (270, 130))
+    ekran.blit(character_torso, (270, 130))
     pygame.display.flip()
     clock.tick(60)
 

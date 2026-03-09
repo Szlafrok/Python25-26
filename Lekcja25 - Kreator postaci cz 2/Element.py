@@ -33,5 +33,13 @@ class Torso(Element):
     def __init__(self):
         super().__init__("body")
 
+class Eyes(Element):
+    def __init__(self):
+        super().__init__("eye")
+
+class Hand(Element):
+    def __init__(self):
+        super().__init__("weapon")
+
 # Proszę utworzyć klasy Eyes oraz Hand, które będą przechowywały
 # odpowiednio grafiki typu 'eye' oraz 'weapon'
