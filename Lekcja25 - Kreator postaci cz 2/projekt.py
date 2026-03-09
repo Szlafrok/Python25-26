@@ -1,9 +1,11 @@
 import pygame
+import Element
 
 from setup import SCREEN_WIDTH, SCREEN_HEIGHT, IMAGE_PATH
 
 bg_image = pygame.image.load(f"{IMAGE_PATH}background.png")
 character_image = pygame.image.load(f"{IMAGE_PATH}base.png")
+character_hat = Element.Hat() # Proszę uzupełnić pozostałe obiekty
 
 pygame.init()
 
