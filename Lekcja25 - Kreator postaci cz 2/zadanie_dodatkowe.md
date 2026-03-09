@@ -1,0 +1,1 @@
+Proszę dodać do projektu drugie tło o nazwie `background2.png`. To tło powinno być wybierane zamiennie z drugim tłem za pomocą stałej w pliku `setup.py` (powinno się wpisywać nazwę tła do stałej `BACKGROUND` i na tej podstawie powinno być wgrywane tło)

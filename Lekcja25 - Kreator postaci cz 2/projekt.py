@@ -3,6 +3,7 @@ import pygame
 from setup import SCREEN_WIDTH, SCREEN_HEIGHT, IMAGE_PATH
 
 bg_image = pygame.image.load(f"{IMAGE_PATH}background.png")
+character_image = pygame.image.load(f"{IMAGE_PATH}base.png")
 
 pygame.init()
 
@@ -21,6 +22,7 @@ while game_active:
             game_active = False
 
     ekran.blit(bg_image, (0, 0))
+    ekran.blit(character_image, (270, 130))
     pygame.display.flip()
     clock.tick(60)
 
