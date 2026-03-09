@@ -16,3 +16,8 @@ class Element():
             path = f"{IMAGE_PATH}{elem_type}{i}.png"
             loaded_image = Image(path)
             self.image_list.append(loaded_image)
+
+    def selectNext(self):
+        self.selected += 1
+        if self.selected > 2:
+            self.selected = 0
