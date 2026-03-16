@@ -21,4 +21,4 @@ Proszę napisać wywołanie funkcji `random.randrange`, które zwraca losowo wyb
 ### Zadanie 2 `4p`
 Proszę dodać 2 własne grafiki kafelków. Następnie proszę dodać element losujący grafikę tak, aby przy umieszczaniu jej na kafelku była to losowo wybrana spośród oryginalnej i dwóch nowych. Przykładowo wygenerowana scena powinna wyglądać tak:
 
-![Ups! Obraz się nie otworzył :<](Obrazy/scena_alter_snake)
+![Ups! Obraz się nie otworzył :<](../Obrazy/scena_alter_snake.png)
