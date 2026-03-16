@@ -10,6 +10,8 @@ character_torso = Element.Torso()
 character_hand = Element.Hand()
 character_eyes = Element.Eyes()
 
+# character_hat = Element.Element("head")
+
 
 pygame.init()
 
@@ -22,7 +24,7 @@ while game_active:
     # Obsługa zdarzeń / Event handling
     for zdarzenie in pygame.event.get():
         if zdarzenie.type == pygame.KEYDOWN:
-            
+
             if zdarzenie.key == pygame.K_ESCAPE:
                 game_active = False
             elif zdarzenie.key == pygame.K_q:
