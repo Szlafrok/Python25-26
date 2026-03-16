@@ -9,8 +9,8 @@ Aby zdobyć bonusy, potrzebujemy:
 | ------- | --------------- |
 | ⭐ | 4 pkt |
 | ⭐➕ | 5 pkt |
-| ⭐➕➕ | 6 pkt |
-| ⭐➕➕➕ | 7 pkt |
+| ⭐➕➕ | 5.5 pkt |
+| ⭐➕➕➕ | 6 pkt |
 
 ### Zadanie 1 `1p`
 Proszę zaproponować wymiary sceny, jakie należy ustawić, aby scena miała wymiary 20x20 kafelków.
