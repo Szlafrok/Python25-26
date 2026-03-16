@@ -32,3 +32,5 @@ while game_active:
     screen.blit(background, (0, 0))
     pygame.display.flip()
     clock.tick(30)
+
+pygame.quit()
