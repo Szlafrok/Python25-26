@@ -17,10 +17,18 @@ class Snake(pygame.sprite.Sprite):
             change_possible = False
         if self.direction == Direction.DOWN and expected_direction == Direction.UP:
             change_possible = False
-        
+        if self.direction == Direction.RIGHT and expected_direction == Direction.LEFT:
+            change_possible = False
+        if self.direction == Direction.LEFT and expected_direction == Direction.RIGHT:
+            change_possible = False
+
+        if change_possible:
+            self.new_direction = expected_direction
+
+
         # Zadanie samodzielne (++):
         # Proszę napisać pozostałe dwa warunki wykluczające obrót
 
         # Zadanie dodatkowe (++):
         # Z użyciem funkcji abs() (wartość bezwzględna) proszę zwinąć 4 powstałe ify
-        # do jednego warunku
+        # do jednego warunku. Wskazówka: użyj cechy .value w enumie.
