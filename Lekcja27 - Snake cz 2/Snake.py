@@ -32,3 +32,17 @@ class Snake(pygame.sprite.Sprite):
         # Zadanie dodatkowe (++):
         # Z użyciem funkcji abs() (wartość bezwzględna) proszę zwinąć 4 powstałe ify
         # do jednego warunku. Wskazówka: użyj cechy .value w enumie.
+
+
+    def update(self):
+        self.direction = self.new_direction
+        self.image = pygame.transform.rotate(self.original_image, self.direction.value* -90)
+
+        if self.direction == Direction.UP:
+            self.rect.move_ip(0, -32)
+        elif self.direction == Direction.DOWN:
+            self.rect.move_ip(0, 32)
+        elif self.direction == Direction.LEFT:
+            self.rect.move_ip(-32, 0)
+        elif self.direction == Direction.RIGHT:
+            self.rect.move_ip(32, 0)
