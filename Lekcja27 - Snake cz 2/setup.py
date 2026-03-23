@@ -1,0 +1,4 @@
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 608
+
+IMAGE_PATH = "Lekcja27 - Snake cz 2/assets/"
