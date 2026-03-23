@@ -2,6 +2,8 @@ import pygame
 from setup import *
 import random
 from Apple import Apple
+from Direction import Direction
+from Snake import Snake
 
 background = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
 
@@ -25,6 +27,10 @@ apple = Apple()
 apples = pygame.sprite.Group()
 apples.add(apple)
 
+snake = Snake()
+MOVE_SNAKE = pygame.USEREVENT + 1
+pygame.time.set_timer(MOVE_SNAKE, 200)
+
 game_active = True
 while game_active:
     for event in pygame.event.get():
@@ -38,6 +44,8 @@ while game_active:
 
     for apple in apples:
         screen.blit(apple.image, apple.rect)
+
+    screen.blit(snake.image, snake.rect)
 
     pygame.display.flip()
     clock.tick(30)
