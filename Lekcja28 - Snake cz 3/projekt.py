@@ -47,6 +47,8 @@ while game_active:
                 snake.change_direction(Direction.RIGHT)
         elif event.type == pygame.QUIT:
             game_active = False
+        elif event.type == MOVE_SNAKE:
+            snake.update()
 
     screen.blit(background, (0, 0))
 
