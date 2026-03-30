@@ -1,0 +1,48 @@
+import pygame
+from Direction import Direction
+from setup import IMAGE_PATH
+
+class Snake(pygame.sprite.Sprite):
+    def __init__(self):
+        self.original_image = pygame.image.load(f"{IMAGE_PATH}head.png")
+        self.image = pygame.transform.rotate(self.original_image, 0)
+        self.rect = self.image.get_rect(center = (12*32+16, 9*32+16))
+
+        self.direction = Direction.UP
+        self.new_direction = Direction.UP
+
+    def change_direction(self, expected_direction):
+        change_possible = True
+        if self.direction == Direction.UP and expected_direction == Direction.DOWN:
+            change_possible = False
+        if self.direction == Direction.DOWN and expected_direction == Direction.UP:
+            change_possible = False
+        if self.direction == Direction.RIGHT and expected_direction == Direction.LEFT:
+            change_possible = False
+        if self.direction == Direction.LEFT and expected_direction == Direction.RIGHT:
+            change_possible = False
+
+        if change_possible:
+            self.new_direction = expected_direction
+
+
+        # Zadanie samodzielne (++):
+        # Proszę napisać pozostałe dwa warunki wykluczające obrót
+
+        # Zadanie dodatkowe (++):
+        # Z użyciem funkcji abs() (wartość bezwzględna) proszę zwinąć 4 powstałe ify
+        # do jednego warunku. Wskazówka: użyj cechy .value w enumie.
+
+
+    def update(self):
+        self.direction = self.new_direction
+        self.image = pygame.transform.rotate(self.original_image, self.direction.value* -90)
+
+        if self.direction == Direction.UP:
+            self.rect.move_ip(0, -32)
+        elif self.direction == Direction.DOWN:
+            self.rect.move_ip(0, 32)
+        elif self.direction == Direction.LEFT:
+            self.rect.move_ip(-32, 0)
+        elif self.direction == Direction.RIGHT:
+            self.rect.move_ip(32, 0)
