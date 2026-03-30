@@ -37,6 +37,14 @@ while game_active:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_ESCAPE:
                 game_active = False
+            elif event.key == pygame.K_w:
+                snake.change_direction(Direction.UP)
+            elif event.key == pygame.K_s:
+                snake.change_direction(Direction.DOWN)
+            elif event.key == pygame.K_a:
+                snake.change_direction(Direction.LEFT)
+            elif event.key == pygame.K_d:
+                snake.change_direction(Direction.RIGHT)
         elif event.type == pygame.QUIT:
             game_active = False
 

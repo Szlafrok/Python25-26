@@ -11,7 +11,7 @@ class Snake(pygame.sprite.Sprite):
         self.direction = Direction.UP
         self.new_direction = Direction.UP
 
-    def change_direction(self, expected_direction):
+    def change_direction(self, expected_direction: Direction):
         change_possible = True
         if self.direction == Direction.UP and expected_direction == Direction.DOWN:
             change_possible = False
