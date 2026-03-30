@@ -1,6 +1,8 @@
 import pygame
 from Direction import Direction
 from setup import IMAGE_PATH
+import copy
+from Segment import Segment
 
 class Snake(pygame.sprite.Sprite):
     def __init__(self):
@@ -10,6 +12,10 @@ class Snake(pygame.sprite.Sprite):
 
         self.direction = Direction.UP
         self.new_direction = Direction.UP
+
+        self.last_position = copy.deepcopy(self.rect)
+        self.add_segment = False
+        self.segments = []
 
     def change_direction(self, expected_direction):
         change_possible = True
@@ -37,6 +43,25 @@ class Snake(pygame.sprite.Sprite):
     def update(self):
         self.direction = self.new_direction
         self.image = pygame.transform.rotate(self.original_image, self.direction.value* -90)
+
+        for i in range(len(self.segments)):
+            if i == 0:
+                self.segments[0].move(self.last_position)
+            else:
+                self.segments[i].move(self.segments[i-1].last_position)
+
+        if self.add_segment:
+            new_segment = Segment()
+            new_position = None
+            if self.segments: # False jeśli lista jest pusta, True w p.p
+                new_position = copy.deepcopy(self.segments[-1].last_position)
+            else:
+                new_position = copy.deepcopy(self.last_position)
+            new_segment.position = new_position
+            self.segments.append(new_segment)
+            self.add_segment = False
+
+        self.last_position = copy.deepcopy(self.rect)
 
         if self.direction == Direction.UP:
             self.rect.move_ip(0, -32)
