@@ -39,6 +39,12 @@ class Snake(pygame.sprite.Sprite):
         # Z użyciem funkcji abs() (wartość bezwzględna) proszę zwinąć 4 powstałe ify
         # do jednego warunku. Wskazówka: użyj cechy .value w enumie.
 
+    def draw_segments(self, screen):
+        for segment in self.segments:
+            screen.blit(segment.image, segment.position)
+
+    def eat_apple(self):
+        self.add_segment = True
 
     def update(self):
         self.direction = self.new_direction
@@ -51,6 +57,7 @@ class Snake(pygame.sprite.Sprite):
                 self.segments[i].move(self.segments[i-1].last_position)
 
         if self.add_segment:
+            print("OK")
             new_segment = Segment()
             new_position = None
             if self.segments: # False jeśli lista jest pusta, True w p.p
@@ -60,6 +67,7 @@ class Snake(pygame.sprite.Sprite):
             new_segment.position = new_position
             self.segments.append(new_segment)
             self.add_segment = False
+            print(len(self.segments))
 
         self.last_position = copy.deepcopy(self.rect)
 

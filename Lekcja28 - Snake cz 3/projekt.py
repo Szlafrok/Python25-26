@@ -50,7 +50,16 @@ while game_active:
         elif event.type == MOVE_SNAKE:
             snake.update()
 
+    apple_collision = pygame.sprite.spritecollideany(snake, apples)
+    if apple_collision != None:
+        apple_collision.kill()
+        snake.eat_apple()
+        apple = Apple()
+        apples.add(apple)
+
     screen.blit(background, (0, 0))
+
+    snake.draw_segments(screen)
 
     for apple in apples:
         screen.blit(apple.image, apple.rect)
