@@ -66,6 +66,9 @@ while game_active:
 
     screen.blit(snake.image, snake.rect)
 
+    if snake.check_collisions():
+        game_active = False
+
     pygame.display.flip()
     clock.tick(30)
 

@@ -1,6 +1,6 @@
 import pygame
 from Direction import Direction
-from setup import IMAGE_PATH
+from setup import IMAGE_PATH, SCREEN_HEIGHT, SCREEN_WIDTH
 import copy
 from Segment import Segment
 
@@ -79,3 +79,15 @@ class Snake(pygame.sprite.Sprite):
             self.rect.move_ip(-32, 0)
         elif self.direction == Direction.RIGHT:
             self.rect.move_ip(32, 0)
+
+    def check_collisions(self) -> bool:
+        for segment in self.segments:
+            if self.rect.topleft == segment.position.topleft:
+                return True
+        
+        if self.rect.top < 0 or self.rect.top >= SCREEN_HEIGHT:
+            return True
+        if self.rect.left < 0 or self.rect.left >= SCREEN_WIDTH:
+            return True
+        
+        return False
