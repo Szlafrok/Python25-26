@@ -10,4 +10,4 @@ class Segment(pygame.sprite.Sprite):
 
     def move(self,new_position):
         self.last_position = copy.deepcopy(self.position)
-        self.new_position = copy.deepcopy(new_position)
+        self.position = copy.deepcopy(new_position) # poprawione na self.position
