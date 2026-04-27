@@ -1,0 +1,6 @@
+SCREEN_WIDTH = 1024
+SCREEN_HEIGHT = 800
+
+IMAGE_PATH = "Lekcja31 - Arkanoid cz 3/assets"
+
+LIVES = 3
