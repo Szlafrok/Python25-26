@@ -25,3 +25,12 @@ class Ball(pygame.sprite.Sprite):
     def update(self, pad):
         self.coordinates += self.vector
         self.position.center = self.coordinates
+
+    def check_collisions(self, pad):
+        # Ściany
+        if self.rect.left <= 0 or self.rect.right >= SCREEN_WIDTH:
+            self.vector.x *= -1
+        if self.rect.top <= 0:
+            self.vector.y *= -1
+        if self.rect.bottom >= SCREEN_HEIGHT:
+            self.lost = True

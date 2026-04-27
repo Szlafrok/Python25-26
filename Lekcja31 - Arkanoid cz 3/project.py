@@ -2,13 +2,13 @@ import pygame
 
 from setup import *
 from pad import Pad
-
+from ball import Ball
 
 screen = pygame.display.set_mode([SCREEN_WIDTH, SCREEN_HEIGHT])
 clock = pygame.time.Clock()
 
 pad = Pad()
-
+ball = Ball()
 
 bg_image = pygame.image.load(f"{IMAGE_PATH}/background.png")
 
@@ -29,7 +29,12 @@ while game_active:
     if keys[pygame.K_d]:
         pad.move_pad(1)
     
+    ball.update(pad)
+    pad.update()
+
+
     screen.blit(bg_image, (0, 0))
     screen.blit(pad.image, pad.position)
+    screen.blit(ball.image, ball.position)
     pygame.display.flip()
     clock.tick(30)
