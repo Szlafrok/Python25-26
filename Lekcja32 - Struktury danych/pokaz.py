@@ -59,3 +59,14 @@ class Stack:
 # WYPISZ ZDJĘTĄ WARTOŚĆ
 # WYPISZ ZDJĘTĄ WARTOŚĆ
 # WYPISZ ZDJĘTĄ WARTOŚĆ
+
+stack = Stack() # []
+stack.push(5) # [5]
+stack.push(4) # [5, 4]
+print(stack.pop()) # [5] -> 4
+stack.push(3) # [5, 3]
+stack.push(2) # [5, 3, 2]
+print(stack.pop()) # [5, 3] -> 2
+print(stack.pop()) # [5] -> 3
+print(stack.pop()) # [] -> 5
+print(stack.stack)
