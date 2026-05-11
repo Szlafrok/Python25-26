@@ -20,7 +20,7 @@ class Brick(pygame.sprite.Sprite):
         if self.hp == 1:
             color_mask = (0, 128, 0)
 
-        self.image = copy.deepcopy(self.image_original)
+        self.image = copy.copy(self.image_original)
         self.image.fill(color_mask, special_flags=pygame.BLEND_ADD)
         
     def update(self):
