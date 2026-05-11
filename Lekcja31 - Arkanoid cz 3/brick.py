@@ -25,3 +25,8 @@ class Brick(pygame.sprite.Sprite):
         
     def update(self):
         self.update_state()
+
+    def hit(self):
+        self.hp -= 1
+        if self.hp <= 0:
+            self.kill()

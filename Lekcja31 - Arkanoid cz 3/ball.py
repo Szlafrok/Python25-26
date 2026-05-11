@@ -47,7 +47,7 @@ class Ball(pygame.sprite.Sprite):
 
         # klocki
         for brick in bricks:
-            if self.brick_collision(self, brick):
+            if self.brick_collision(brick): # poprawka
                 brick.hit()
                 break
         
