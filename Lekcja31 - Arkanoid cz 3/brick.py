@@ -23,3 +23,5 @@ class Brick(pygame.sprite.Sprite):
         self.image = copy.deepcopy(self.image_original)
         self.image.fill(color_mask, special_flags=pygame.BLEND_ADD)
         
+    def update(self):
+        self.update_state()

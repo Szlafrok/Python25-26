@@ -1,6 +1,7 @@
 import pygame
 import random
 from setup import *
+from brick import Brick
 
 class Ball(pygame.sprite.Sprite):
     def __init__(self):
@@ -22,12 +23,12 @@ class Ball(pygame.sprite.Sprite):
         self.lost = False
 
 
-    def update(self, pad):
+    def update(self, pad, bricks):
         self.coordinates += self.vector
         self.position.center = self.coordinates
-        self.check_collisions(pad)
+        self.check_collisions(pad, bricks)
 
-    def check_collisions(self, pad):
+    def check_collisions(self, pad, bricks):
         # ZAMIAST rect MA BYĆ position
         # Ściany
         if self.position.left <= 0 or self.position.right >= SCREEN_WIDTH:
@@ -43,3 +44,21 @@ class Ball(pygame.sprite.Sprite):
             self.vector.x += pad.is_moving * 5
             if self.vector.x < -10: self.vector.x = -10
             if self.vector.x > 10: self.vector.x = 10
+
+        # klocki
+        for brick in bricks:
+            if self.brick_collision(self, brick):
+                brick.hit()
+                break
+        
+    def brick_collision(self, brick: Brick):
+        distance_x = abs(self.position.centerx - brick.rect.centerx) - brick.rect.width / 2
+        distance_y = abs(self.position.centery - brick.rect.centery) - brick.rect.height / 2
+
+        if distance_x < self.r and distance_y < self.r:
+            if distance_y > distance_x:
+                self.vector.y *= -1
+            else:
+                self.vector.x *= -1
+            return True
+        return False
