@@ -1,0 +1,6 @@
+{
+    "imie": "Piotr",
+    "wiek": 21,
+    "wzrost": 185,
+    "kursy": ["informatyka", "matematyka", "algorytmika"]
+}
