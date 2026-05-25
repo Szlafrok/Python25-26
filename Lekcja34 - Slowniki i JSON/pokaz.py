@@ -44,3 +44,33 @@ for key, value in student.items():
     print(f"{key} - {value}")
 
 
+##########################
+def dictprint(slownik):
+    print("{ -----")
+    for key, value in slownik.items():
+        print(f"{key}: {value}")
+    print("----- }")
+
+
+print("-----------------")
+
+student.setdefault("ulubiona_gra", "Minecraft")
+dictprint(student)
+
+# pop - usuwa parę pod danym kluczem
+deleted = student.pop("wzrost")
+dictprint(student)
+print(deleted)
+
+# popitem - usuwa i zwraca ostatnią parę klucz-wartość
+last_item = student.popitem()
+dictprint(student)
+print(last_item)
+
+# przypisanie
+student["hobby"] = "RPGi"
+dictprint(student)
+
+# usunięcie
+del student["wiek"]
+dictprint(student)
