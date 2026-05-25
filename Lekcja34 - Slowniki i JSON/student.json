@@ -1,6 +1,11 @@
 {
     "imie": "Piotr",
+    "kursy": [
+        "informatyka",
+        "matematyka",
+        "algorytmika",
+        "fizyka"
+    ],
     "wiek": 21,
-    "wzrost": 185,
-    "kursy": ["informatyka", "matematyka", "algorytmika"]
+    "wzrost": 185
 }

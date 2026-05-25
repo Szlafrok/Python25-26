@@ -74,3 +74,15 @@ dictprint(student)
 # usunięcie
 del student["wiek"]
 dictprint(student)
+
+# update
+student.update(
+    {
+        "nazwisko": "Polański",
+        "lekcje": 2
+    }
+)
+dictprint(student)
+
+student.clear()
+dictprint(student)
