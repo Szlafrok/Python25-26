@@ -30,7 +30,6 @@ for key in student.keys():
 for value in student.values():
     print(f"Hej, jestem wartością - {value}")
 
-
 for pair in student.items():
     print(pair, pair[0], pair[1])
 
