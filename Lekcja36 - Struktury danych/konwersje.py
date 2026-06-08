@@ -24,3 +24,6 @@ print("Lista na zbiór")
 konwersja = set(lista)
 print(konwersja)
 print(type(konwersja))
+
+for element in zbior:
+    print(element)

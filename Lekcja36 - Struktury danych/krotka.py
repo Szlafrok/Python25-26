@@ -7,7 +7,7 @@ print(krotka[-2])
 print(krotka[-5])
 print(krotka[4])
 
-jednoelementowa = (5,)
+jednoelementowa = (5)
 print(jednoelementowa)
 print(jednoelementowa[0])
 
