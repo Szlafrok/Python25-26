@@ -1,4 +1,4 @@
-1. a. Proszę napisać wyrażenia listowe generujące podane struktury danych:
+1. a. Proszę napisać wyrażenia listowe (lub dla innych struktur danych: tuple comprehension, set comprehension) generujące podane struktury danych:
 - Listy z liczbami od 1 do 10.
 - Krotki z liczbami od 11 do 20.
 - Zbioru z liczbami od 21 do 30.

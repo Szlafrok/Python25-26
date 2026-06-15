@@ -3,3 +3,6 @@
 # - użyć pętli for
 # - użyć range()
 # - użyć metody .append()
+
+lista = []
+
