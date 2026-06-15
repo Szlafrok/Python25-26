@@ -4,5 +4,12 @@
 # - użyć range()
 # - użyć metody .append()
 
-lista = []
+lista = [] # 1 - 100
 
+# for i in range(100): # 0 - 99
+#     lista.append(i + 1)
+
+for i in range(1, 101):
+    lista.append(i)
+
+print(lista)
