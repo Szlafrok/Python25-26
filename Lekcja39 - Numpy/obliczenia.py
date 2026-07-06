@@ -28,6 +28,18 @@ def shapeshifter(array: np.ndarray):
     print(array.reshape(9, -1))
 
     print("????")
-    print(array.reshape(-1, -1))
+    #print(array.reshape(-1, -1))
 
 shapeshifter(arr)
+
+
+def array_functions():
+    arr = np.linspace(0, 10, 21)
+    print(arr)
+
+    print(np.sum(arr))
+    print(np.min(arr))
+    print(np.max(arr))
+    print(np.mean(arr))
+
+array_functions()
