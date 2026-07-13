@@ -13,5 +13,6 @@ wynik = bool(re.search(r"^0[0-9]{9}0$", pesel))
 # \.
 mail = "michalpyndzel@gmail.com"
 wynik = bool(
-    re.search(r"--- \.com$", mail)
+    re.search(r"^[A-Za-z0-9]+@[A-Za-z0-9]+\.com$", mail)
 )
+print(wynik)
