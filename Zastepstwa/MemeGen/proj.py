@@ -47,9 +47,9 @@ def ask_text(prompt: str) -> str:
 
 
 def build_output_path(template_path: Path) -> Path:
-    # TODO: Zbuduj ścieżkę do pliku wynikowego w folderze output/.
-    # Wskazówka: użyj template_path.stem i datetime.now().strftime(...)
-    # Na razie specjalnie przerywamy program.
+    timestamp = datetime.now().strftime("%d%m%Y_%H%M%S")
+    return OUTPUT_DIR / f"meme_{template_path.stem}_{timestamp}.png"
+
     raise NotImplementedError("TODO: build_output_path")
 
 
@@ -152,11 +152,20 @@ def draw_centered_lines(
 
 
 def add_meme_text(image: Image.Image, top_text: str, bottom_text: str) -> Image.Image:
-    # TODO: W tej funkcji dodamy napisy w stylu memów.
-    # - użyj ImageDraw.Draw(image)
-    # - użyj helperów fit_font_and_lines(...) i draw_centered_lines(...)
-    # - na górze rysujemy top_text, na dole bottom_text
-    # Na razie specjalnie przerywamy program.
+
+    image = image.copy()
+    draw = ImageDraw.Draw(image)
+
+    margin = int(image.height * 0.05)
+    max_width = int(image.width * 0.92)
+    start_font_size = int(image.width * 0.08)
+
+    if top_text.strip():
+        font, lines = fit_font_and_lines(top_text.strip(), draw, max_width, start_font_size)
+        draw_centered_lines(draw, lines, font, margin, image.width)
+
+    return image
+    
     raise NotImplementedError("TODO: add_meme_text")
 
 
