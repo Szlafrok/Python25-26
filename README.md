@@ -1,9 +1,25 @@
 ## 👋 Witaj w repozytorium kursu z Pythona 🐍
-Oto krótki poradnik nawigacji...
 
-- 💻 Katalogi oznaczone jako `LekcjaXX` przechowują kody z zajęć oraz zadania dodatkowe. Tam będziesz zaglądać w trakcie lekcji aby poprawić swój kod, lub rozwiązać zadanie domowe. Tam również powinieneś szukać kodów w razie wątpliwości pomiędzy lekcjami, przykłady bardzo ułatwiają naukę!
-- 📝 Katalog `Poprawione zadania` zawiera poprawione kody z lekcji, zadania dodatkowe i zadania domowe. Jeśli coś Ci oceniłem lub poprawiłem, tam powinieneś to znaleźć! Musisz wejść w folder odpowiedniego miesiąca, a następnie odnaleźć katalog oznaczony swoim imieniem lub pseudonimem.
-- 📚 Katalog `Zasady i informacje` przechowuje
-- 👀 `.gitignore` to lista plików niewidocznych w repozytorium. Element czysto techniczny
-- ✅ Pliki `lista_zadan_[miesiac].md` to listy zadań na poszczególne miesiące. Czas na ich rozwiązanie mamy zazwyczaj do początku następnego miesiąca. Zachęcam do robienia zadań domowych, ćwiczenie czyni mistrza! Przez półtorej godziny w tygodniu mogę przekazać Wam potrzebną wiedzę, ale stanie się prawdziwym programistą wymaga także Waszej współpracy!
-- 🏅 W pliku `wyniki.md` znajdziesz link do arkusza przechowującego oceny za zadania domowe, zadania dodatkowe, bonusy za quizy, itd. Są tam zapisane również odznaki za aktywność i zadania domowe!
+To repozytorium zawiera materiały do kursu Pythona, w tym przykłady z zajęć, zadania domowe oraz poprawione prace.
+
+### Struktura repozytorium
+
+- 💻 `LekcjaXX` - katalogi z kodem z zajęć, przykładami i zadaniami dodatkowymi. W trakcie lekcji oraz między zajęciami warto zaglądać do odpowiedniego folderu, aby sprawdzić przykłady i porównać je ze swoim rozwiązaniem.
+- 📝 `Poprawione zadania` - folder ze sprawdzonymi i poprawionymi rozwiązaniami z lekcji, zadaniami dodatkowymi i zadaniami domowymi. Aby znaleźć swoją pracę, wejdź do właściwego miesiąca, a następnie do katalogu oznaczonego Twoim imieniem lub pseudonimem.
+- 📚 `Zasady i informacje` - dokumenty i wspólne informacje dotyczące kursu.
+- 📦 `requirements.txt` - lista bibliotek Pythona potrzebnych dla projektu, jeśli używasz środowiska wirtualnego.
+
+### Jak korzystać z repozytorium
+
+1. Otwórz katalog dla aktualnej lekcji, np. `Lekcja10 - Funkcje`.
+2. Sprawdź przykłady z zajęć i zacznij od rozwiązania zadań domowych, jeśli takowe zostały zadane.
+3. Jeśli otrzymałeś ocenę lub poprawkę, sprawdź folder `Poprawione zadania`.
+
+### Wskazówki
+
+- Ćwicz regularnie. Jednorazowa lekcja to za mało, aby stać się dobrym programistą.
+- Stawiaj sobie małe cele i wykonuj zadania krok po kroku.
+- Jeśli masz problem, poszukaj podobnego przykładu w katalogu lekcji.
+- Pytaj o wątpliwości na zajęciach lub poza nimi.
+
+Powodzenia i miłej nauki! 🚀
